@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="feat-wwf-graphics"
+   width="565"
+   height="499.99997"
+   viewBox="0 0 610.00001 540"
+   version="1.1"
+   id="svg123"
+   sodipodi:docname="docs-details.svg"
+   inkscape:export-filename="..\Desktop\Desktop\images-dms\docs-details.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview123"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.0500001"
+     inkscape:cx="282.85712"
+     inkscape:cy="251.42855"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg123">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="610"
+       height="540"
+       id="page2"
+       margin="0"
+       bleed="0" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid1599" />
+  </sodipodi:namedview>
+  <defs
+     id="defs29" />
+  <g
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     id="g123"
+     transform="translate(-128.7887,20.046324)">
+    <g
+       class="wwf-share-options"
+       transform="translate(287.78528,145.80367)"
+       fill="none"
+       id="g122">
+      <rect
+         stroke="#ff9c6b"
+         fill="#ffffff"
+         stroke-width="0.573303px"
+         x="30.515181"
+         y="0.0366515"
+         width="164.44817"
+         height="194.86955"
+         rx="11.806535"
+         id="rect119" />
+      <text
+         font-family="sans-serif"
+         font-size="12"
+         font-weight="600"
+         fill="#333333"
+         id="text119"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.28px;font-family:'B Nazanin';-inkscape-font-specification:'B Nazanin, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333"
+         x="99.594742"
+         y="28.402452"><tspan
+           sodipodi:role="line"
+           id="tspan125"
+           x="99.594742"
+           y="28.402452">فرایندها</tspan></text>
+      <text
+         font-family="sans-serif"
+         font-size="12"
+         font-weight="600"
+         fill="#333333"
+         id="text121"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.28px;font-family:'B Nazanin';-inkscape-font-specification:'B Nazanin, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333"
+         x="80.973167"
+         y="62.610332"><tspan
+           sodipodi:role="line"
+           id="tspan124"
+           x="80.973167"
+           y="62.610332">زیرفرایندها</tspan></text>
+      <text
+         font-family="sans-serif"
+         font-size="12"
+         font-weight="600"
+         fill="#333333"
+         id="text122"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.28px;font-family:'B Nazanin';-inkscape-font-specification:'B Nazanin, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333"
+         x="56.161266"
+         y="97.411392"><tspan
+           sodipodi:role="line"
+           id="tspan123"
+           x="56.161266"
+           y="97.411392">روشهای اجرایی</tspan></text>
+      <text
+         font-family="sans-serif"
+         font-size="12"
+         font-weight="600"
+         fill="#333333"
+         id="text122-4"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.28px;font-family:'B Nazanin';-inkscape-font-specification:'B Nazanin, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333"
+         x="62.818924"
+         y="134.46597"><tspan
+           sodipodi:role="line"
+           id="tspan126"
+           x="62.818924"
+           y="134.46597">دستورالعمل ها</tspan></text>
+      <text
+         font-family="sans-serif"
+         font-size="12"
+         font-weight="600"
+         fill="#333333"
+         id="text122-4-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.28px;font-family:'B Nazanin';-inkscape-font-specification:'B Nazanin, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333"
+         x="110.20293"
+         y="169.66934"><tspan
+           sodipodi:role="line"
+           id="tspan127"
+           x="110.20293"
+           y="169.66934">فرم ها</tspan></text>
+    </g>
+    <path
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       d="m 458.05833,162.87083 c -0.0534,0.17383 -0.0822,0.35843 -0.0822,0.54965 0,0.34271 0.27622,0.62085 0.61657,0.62085 h 3.69943 a 0.61657066,0.6208453 0 0 0 0.61657,-0.62085 1.849712,1.8625359 0 0 0 -0.0822,-0.54965 m -4.76815,0 a 1.8505341,1.8633637 0 0 1 1.7675,-1.31289 h 1.23314 c 0.83196,0 1.53485,0.55297 1.76751,1.31289 m -4.76815,0 c -0.30911,0.019 -0.61657,0.0414 -0.92403,0.0662 -0.92979,0.0778 -1.62446,0.87498 -1.62446,1.81452 v 1.77314 m 7.31664,-3.65388 c 0.3091,0.019 0.61657,0.0414 0.92403,0.0662 0.92979,0.0778 1.62446,0.87498 1.62446,1.81452 v 8.60244 a 1.849712,1.8625359 0 0 1 -1.84971,1.86253 h -1.84972 m -6.1657,-8.69183 h -2.77457 c -0.51052,0 -0.92486,0.4172 -0.92486,0.93126 v 9.31268 c 0,0.51406 0.41434,0.93127 0.92486,0.93127 h 8.01542 c 0.51052,0 0.92485,-0.41721 0.92485,-0.93127 v -1.55211 m -6.1657,-8.69183 h 5.24085 c 0.51052,0 0.92485,0.4172 0.92485,0.93126 v 7.76057 m -6.78227,-2.48338 1.23314,1.24169 2.46628,-3.10423"
+       stroke="#0f172a"
+       fill="none"
+       stroke-width="1.23741px"
+       id="path1" />
+    <path
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       d="m 457.93748,198.01958 c -0.0534,0.17383 -0.0822,0.35843 -0.0822,0.54965 0,0.34271 0.27622,0.62085 0.61657,0.62085 h 3.69943 a 0.61657066,0.6208453 0 0 0 0.61657,-0.62085 1.849712,1.8625359 0 0 0 -0.0822,-0.54965 m -4.76815,0 a 1.8505341,1.8633637 0 0 1 1.7675,-1.31289 h 1.23314 c 0.83196,0 1.53485,0.55297 1.76751,1.31289 m -4.76815,0 c -0.30911,0.019 -0.61657,0.0414 -0.92403,0.0662 -0.92979,0.0778 -1.62446,0.87498 -1.62446,1.81452 v 1.77314 m 7.31664,-3.65388 c 0.3091,0.019 0.61657,0.0414 0.92403,0.0662 0.92979,0.0778 1.62446,0.87498 1.62446,1.81452 v 8.60244 a 1.849712,1.8625359 0 0 1 -1.84971,1.86253 h -1.84972 m -6.1657,-8.69183 h -2.77457 c -0.51052,0 -0.92486,0.4172 -0.92486,0.93126 v 9.31268 c 0,0.51406 0.41434,0.93127 0.92486,0.93127 h 8.01542 c 0.51052,0 0.92485,-0.41721 0.92485,-0.93127 v -1.55211 m -6.1657,-8.69183 h 5.24085 c 0.51052,0 0.92485,0.4172 0.92485,0.93126 v 7.76057 m -6.78227,-2.48338 1.23314,1.24169 2.46628,-3.10423"
+       stroke="#0f172a"
+       fill="none"
+       stroke-width="1.23741px"
+       id="path1-1" />
+    <path
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       d="m 458.72752,233.13866 c -0.0534,0.17383 -0.0822,0.35843 -0.0822,0.54965 0,0.34271 0.27622,0.62085 0.61657,0.62085 h 3.69943 a 0.61657066,0.6208453 0 0 0 0.61657,-0.62085 1.849712,1.8625359 0 0 0 -0.0822,-0.54965 m -4.76815,0 a 1.8505341,1.8633637 0 0 1 1.7675,-1.31289 h 1.23314 c 0.83196,0 1.53485,0.55297 1.76751,1.31289 m -4.76815,0 c -0.30911,0.019 -0.61657,0.0414 -0.92403,0.0662 -0.92979,0.0778 -1.62446,0.87498 -1.62446,1.81452 v 1.77314 m 7.31664,-3.65388 c 0.3091,0.019 0.61657,0.0414 0.92403,0.0662 0.92979,0.0778 1.62446,0.87498 1.62446,1.81452 v 8.60244 a 1.849712,1.8625359 0 0 1 -1.84971,1.86253 h -1.84972 m -6.1657,-8.69183 h -2.77457 c -0.51052,0 -0.92486,0.4172 -0.92486,0.93126 v 9.31268 c 0,0.51406 0.41434,0.93127 0.92486,0.93127 h 8.01542 c 0.51052,0 0.92485,-0.41721 0.92485,-0.93127 v -1.55211 m -6.1657,-8.69183 h 5.24085 c 0.51052,0 0.92485,0.4172 0.92485,0.93126 v 7.76057 m -6.78227,-2.48338 1.23314,1.24169 2.46628,-3.10423"
+       stroke="#0f172a"
+       fill="none"
+       stroke-width="1.23741px"
+       id="path1-5" />
+    <path
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       d="m 458.04348,270.2436 c -0.0534,0.17383 -0.0822,0.35843 -0.0822,0.54965 0,0.34271 0.27622,0.62085 0.61657,0.62085 h 3.69943 a 0.61657066,0.6208453 0 0 0 0.61657,-0.62085 1.849712,1.8625359 0 0 0 -0.0822,-0.54965 m -4.76815,0 a 1.8505341,1.8633637 0 0 1 1.7675,-1.31289 h 1.23314 c 0.83196,0 1.53485,0.55297 1.76751,1.31289 m -4.76815,0 c -0.30911,0.019 -0.61657,0.0414 -0.92403,0.0662 -0.92979,0.0778 -1.62446,0.87498 -1.62446,1.81452 v 1.77314 m 7.31664,-3.65388 c 0.3091,0.019 0.61657,0.0414 0.92403,0.0662 0.92979,0.0778 1.62446,0.87498 1.62446,1.81452 v 8.60244 a 1.849712,1.8625359 0 0 1 -1.84971,1.86253 h -1.84972 m -6.1657,-8.69183 h -2.77457 c -0.51052,0 -0.92486,0.4172 -0.92486,0.93126 v 9.31268 c 0,0.51406 0.41434,0.93127 0.92486,0.93127 h 8.01542 c 0.51052,0 0.92485,-0.41721 0.92485,-0.93127 v -1.55211 m -6.1657,-8.69183 h 5.24085 c 0.51052,0 0.92485,0.4172 0.92485,0.93126 v 7.76057 m -6.78227,-2.48338 1.23314,1.24169 2.46628,-3.10423"
+       stroke="#0f172a"
+       fill="none"
+       stroke-width="1.23741px"
+       id="path1-2" />
+    <path
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       d="m 456.33089,306.22372 c -0.0534,0.17383 -0.0822,0.35843 -0.0822,0.54965 0,0.34271 0.27622,0.62085 0.61657,0.62085 h 3.69943 a 0.61657066,0.6208453 0 0 0 0.61657,-0.62085 1.849712,1.8625359 0 0 0 -0.0822,-0.54965 m -4.76815,0 a 1.8505341,1.8633637 0 0 1 1.7675,-1.31289 h 1.23314 c 0.83196,0 1.53485,0.55297 1.76751,1.31289 m -4.76815,0 c -0.30911,0.019 -0.61657,0.0414 -0.92403,0.0662 -0.92979,0.0778 -1.62446,0.87498 -1.62446,1.81452 v 1.77314 m 7.31664,-3.65388 c 0.3091,0.019 0.61657,0.0414 0.92403,0.0662 0.92979,0.0778 1.62446,0.87498 1.62446,1.81452 v 8.60244 a 1.849712,1.8625359 0 0 1 -1.84971,1.86253 h -1.84972 m -6.1657,-8.69183 h -2.77457 c -0.51052,0 -0.92486,0.4172 -0.92486,0.93126 v 9.31268 c 0,0.51406 0.41434,0.93127 0.92486,0.93127 h 8.01542 c 0.51052,0 0.92485,-0.41721 0.92485,-0.93127 v -1.55211 m -6.1657,-8.69183 h 5.24085 c 0.51052,0 0.92485,0.4172 0.92485,0.93126 v 7.76057 m -6.78227,-2.48338 1.23314,1.24169 2.46628,-3.10423"
+       stroke="#0f172a"
+       fill="none"
+       stroke-width="1.23741px"
+       id="path1-7" />
+  </g>
+</svg>

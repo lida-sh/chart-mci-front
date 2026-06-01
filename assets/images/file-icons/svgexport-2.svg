@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="zwd-banner-graphics"
+   width="770"
+   height="490"
+   viewBox="0 0 770 490"
+   version="1.1"
+   id="svg175"
+   sodipodi:docname="svgexport-2.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview175"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.6632653"
+     inkscape:cx="384.78528"
+     inkscape:cy="245"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="zwd-dms-banner" />
+  <defs
+     id="defs23">
+    <linearGradient
+       x1="71%"
+       y1="47%"
+       x2="19%"
+       y2="75%"
+       id="BgPolyGrdn">
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.1"
+         offset="0%"
+         id="stop1" />
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.4"
+         offset="100%"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       x1="-8%"
+       y1="50%"
+       x2="108%"
+       y2="50%"
+       id="BgCirGrdn">
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.08"
+         offset="0%"
+         id="stop3" />
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.5"
+         offset="100%"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       x1="-3%"
+       y1="50%"
+       x2="100%"
+       y2="50%"
+       id="BgWaveGrdn">
+      <stop
+         stop-color="#4749E3"
+         stop-opacity="0"
+         offset="0%"
+         id="stop5" />
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.5"
+         offset="25%"
+         id="stop6" />
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.5"
+         offset="75%"
+         id="stop7" />
+      <stop
+         stop-color="#4749E3"
+         stop-opacity="0"
+         offset="100%"
+         id="stop8" />
+    </linearGradient>
+    <circle
+       id="User-1-Path"
+       cx="20"
+       cy="20"
+       r="20" />
+    <circle
+       id="User-2-Path"
+       cx="20"
+       cy="20"
+       r="20" />
+    <circle
+       id="User-3-Path"
+       cx="20"
+       cy="20"
+       r="20" />
+    <circle
+       id="User-4-Path"
+       cx="20"
+       cy="20"
+       r="20" />
+    <linearGradient
+       x1="-8%"
+       y1="50%"
+       x2="108%"
+       y2="50%"
+       id="linearGradient10">
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.08"
+         offset="0%"
+         id="stop9" />
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.5"
+         offset="100%"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       x1="-3%"
+       y1="50%"
+       x2="100%"
+       y2="50%"
+       id="linearGradient14">
+      <stop
+         stop-color="#4749E3"
+         stop-opacity="0"
+         offset="0%"
+         id="stop11" />
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.5"
+         offset="25%"
+         id="stop12" />
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.5"
+         offset="75%"
+         id="stop13" />
+      <stop
+         stop-color="#4749E3"
+         stop-opacity="0"
+         offset="100%"
+         id="stop14" />
+    </linearGradient>
+    <linearGradient
+       x1="71%"
+       y1="47%"
+       x2="19%"
+       y2="75%"
+       id="linearGradient16">
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.1"
+         offset="0%"
+         id="stop15" />
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.4"
+         offset="100%"
+         id="stop16" />
+    </linearGradient>
+    <circle
+       id="circle16"
+       cx="20"
+       cy="20"
+       r="20" />
+    <circle
+       id="circle17"
+       cx="20"
+       cy="20"
+       r="20" />
+    <circle
+       id="circle18"
+       cx="20"
+       cy="20"
+       r="20" />
+    <circle
+       id="circle19"
+       cx="20"
+       cy="20"
+       r="20" />
+    <circle
+       id="circle20"
+       cx="20"
+       cy="20"
+       r="20" />
+    <circle
+       id="circle21"
+       cx="20"
+       cy="20"
+       r="20" />
+    <circle
+       id="circle22"
+       cx="20"
+       cy="20"
+       r="20" />
+    <circle
+       id="circle23"
+       cx="20"
+       cy="20"
+       r="20" />
+  </defs>
+  <g
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     id="g175">
+    <g
+       id="zwd-dms-banner"
+       transform="translate(6, 0)"
+       fill="none">
+      <g
+         class="dms-ban-bgelements"
+         fill="none"
+         id="g23">
+        <ellipse
+           stroke="url(&quot;#BgCirGrdn&quot;)"
+           stroke-width="18px"
+           cx="209"
+           cy="124"
+           rx="38"
+           ry="38"
+           fill="none"
+           id="ellipse23" />
+        <path
+           class="dms-ban-bgwave"
+           d="M2.84333231,232.809133 C32.3083357,259.570149 60.1024428,250.527675 80.2750391,236.259983 C100.447635,221.99229 114.072014,209.972985 137.345187,193.210854 C160.618359,176.448722 199.793139,175.507048 225.755082,201.287673 L265.510764,234.523566 C291.047242,260.519659 332.350906,261.226299 359.565708,234.524922 C377.70891,216.724004 390.63723,203.746589 398.350667,195.592678 C424.542388,169.826684 462.099963,170.647234 483.678864,195.593908 C504.702605,220.729252 510.638593,261.959212 536.53654,287.699935 C562.495513,313.733217 597.810274,308.726271 623.763076,287.659014 C649.715877,266.591756 659.409438,255.637692 679.926172,240.1366 C700.442907,224.635508 740.290934,225.864716 772.756289,254.633172"
+           stroke="url(&quot;#BgWaveGrdn&quot;)"
+           stroke-width="15px"
+           transform="translate(387.5, 241) scale(-1, 1) rotate(177) translate(-387.5, -241)"
+           fill="none"
+           id="path23" />
+        <polygon
+           fill="url(&quot;#BgPolyGrdn&quot;)"
+           fill-rule="nonzero"
+           points="458.655525 490 681.943078 245 457.727856 0 257.943078 245"
+           id="polygon23" />
+      </g>
+    </g>
+  </g>
+</svg>

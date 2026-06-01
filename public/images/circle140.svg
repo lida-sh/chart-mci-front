@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="zwd-banner-graphics"
+   width="50"
+   height="50"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg175"
+   sodipodi:docname="user4.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:export-filename="user4.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview175"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.6632653"
+     inkscape:cx="384.48466"
+     inkscape:cy="245"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g158">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="50"
+       height="50"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs23">
+    <circle
+       id="User-4-Path"
+       cx="20"
+       cy="20"
+       r="20" />
+  </defs>
+  <g
+     class="dms-ban-user-4"
+     transform="translate(2.500006,2.4999991)"
+     fill="none"
+     id="g158">
+    <circle
+       stroke="#4749e3"
+       stroke-width="5px"
+       cx="22.5"
+       cy="22.5"
+       r="22.5"
+       fill="none"
+       id="circle140"
+       inkscape:export-filename="C:\Users\0532350669\circle140.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       transform="translate(2.5,2.5)"
+       fill="none"
+       id="g157">
+      <mask
+         id="User-4-Mask"
+         fill="#ffffff">
+        <use
+           xlink:href="#User-4-Path"
+           id="use140" />
+      </mask>
+      <use
+         fill="#ffffff"
+         xlink:href="#User-4-Path"
+         id="use141" />
+      <g
+         mask="url(#User-4-Mask)"
+         fill="none"
+         id="g156">
+        <g
+           transform="translate(1,4)"
+           fill="none"
+           id="g155">
+          <g
+             fill="none"
+             id="g154">
+            <path
+               d="M 33.441848,30.308877 C 31.148896,27.741048 22.402151,26.23773 22.402151,26.23773 h -7.223796 c 0,0 -8.7197998,1.654373 -10.4505522,3.341299 C 3.1952538,31.07277 1.4728618,37.077204 0,41.127483 h 7.293201 7.493394 8.690339 7.034234 7.383569 C 36.268193,35.729063 34.123969,31.07277 33.441848,30.308877 Z"
+               fill="#66eedd"
+               fill-rule="nonzero"
+               id="path141" />
+            <circle
+               fill="#93786f"
+               fill-rule="nonzero"
+               cx="18.5"
+               cy="4"
+               id="ellipse141"
+               r="4" />
+            <g
+               transform="translate(9.5,4)"
+               fill-rule="nonzero"
+               fill="none"
+               id="g146">
+              <path
+                 d="M 17.700978,11.880038 C 19.597195,3.6013526 14.532594,0 9.0533659,0 3.5747393,0 -1.4904629,3.6013526 0.40575334,11.880038 Z"
+                 fill="#93786f"
+                 id="path142" />
+              <polygon
+                 fill="#ffc6b0"
+                 points="9.0533659,27.895617 12.747708,22.281726 12.390249,17.543168 5.8813711,17.543168 5.5239123,22.281726 "
+                 id="polygon142" />
+              <path
+                 d="M 5.8813711,18.624658 5.629826,21.960501 c 0,0 5.108531,-1.09841 6.760423,-3.335843 z"
+                 fill="#ffa795"
+                 id="path143" />
+              <path
+                 d="m 15.803559,7.6745092 c 0,1.3845294 0.04574,2.6811618 0.05897,3.2206678 0.05115,2.118015 -0.152852,5.204715 -2.812129,7.294845 -1.146997,0.902005 -2.532902,1.714295 -3.9230189,1.72945 -1.4394634,0.01637 -2.8831393,-0.795923 -4.0704559,-1.72945 -2.6586745,-2.090736 -2.8632805,-5.17683 -2.812129,-7.294845 0.013841,-0.580727 0.054762,-2.0319365 0.095082,-3.5328537 0.060178,-2.2380397 2.3908814,-4.5112382 6.7869015,-4.5112382 4.3966213,6.062e-4 6.6767753,2.7223825 6.6767753,4.8234241 z"
+                 fill="#ffc6b0"
+                 id="path144" />
+              <path
+                 d="M 17.672695,10.655127 C 17.446424,9.8155591 16.399925,9.3827421 15.601962,9.7749446 L 15.26376,15.174246 c 1.436454,-0.954138 2.917441,-2.630243 2.408935,-4.519119 z"
+                 fill="#ffc6b0"
+                 id="path145" />
+              <path
+                 d="M 2.5047702,9.7749446 C 1.7074086,9.3827421 0.66030728,9.8155591 0.43463889,10.655127 -0.0738672,12.544003 1.407721,14.220108 2.8441755,15.174246 Z"
+                 fill="#ffc6b0"
+                 id="path146" />
+            </g>
+            <path
+               d="m 19.943268,39.273159 h -2.405324 v -6.107932 l 0.0349,-0.04304 c 1.952784,-2.383524 3.669067,-4.653692 3.686519,-4.676727 l 0.24312,0.186706 c -0.01685,0.02243 -1.716283,2.270773 -3.658837,4.643387 v 5.689058 h 2.099017 v 0.308548 z"
+               fill="#a8c4c6"
+               fill-rule="nonzero"
+               id="path147" />
+            <path
+               d="m 22.296237,24.835015 c 0,0 3.134684,1.052339 3.226757,1.956163 0.09147,0.903824 -1.613378,5.887887 -1.613378,5.887887 0,0 -2.963177,-1.055976 -5.201807,-0.826838 l 3.694342,-5.613891 z"
+               fill="#70b1a8"
+               fill-rule="nonzero"
+               id="path148" />
+            <path
+               d="m 15.283667,24.835015 c 0,0 -3.171393,1.052339 -3.263465,1.956163 -0.09147,0.903824 1.613378,5.887887 1.613378,5.887887 0,0 2.834997,-1.055976 5.073627,-0.826838 l -3.529453,-5.613891 z"
+               fill="#70b1a8"
+               fill-rule="nonzero"
+               id="path149" />
+            <path
+               d="m 19.106791,34.17089 c 0,0.1764 -0.142021,0.31946 -0.31714,0.31946 -0.175118,0 -0.317139,-0.14306 -0.317139,-0.31946 0,-0.176401 0.142021,-0.319461 0.317139,-0.319461 0.175119,0 0.31714,0.14306 0.31714,0.319461 z"
+               fill="#e7d0aa"
+               fill-rule="nonzero"
+               id="path150" />
+            <path
+               d="m 19.106791,37.430959 c 0,0.1764 -0.142021,0.31946 -0.31714,0.31946 -0.175118,0 -0.317139,-0.14306 -0.317139,-0.31946 0,-0.1764 0.142021,-0.31946 0.317139,-0.31946 0.175119,0 0.31714,0.14306 0.31714,0.31946 z"
+               fill="#e7d0aa"
+               fill-rule="nonzero"
+               id="path151" />
+            <path
+               d="m 18.781226,6.8076956 c 0,0 -5.147646,0.1642765 -6.105082,5.5750954 -0.642703,3.630449 0.557853,5.452645 0.557853,5.452645 0,0 -2.306632,-2.213792 -1.9919,-5.452645 0.314732,-3.2382474 4.365329,-6.4564902 4.365329,-6.4564902 h 3.499365 z"
+               fill="#93786f"
+               fill-rule="nonzero"
+               id="path152" />
+            <path
+               d="m 18.854042,6.8076956 c 0,0 5.147646,0.1642765 6.105082,5.5750954 0.642704,3.630449 -0.557852,5.452645 -0.557852,5.452645 0,0 2.306632,-2.213792 1.991899,-5.452645 C 26.078439,9.1445436 22.027842,5.9263008 22.027842,5.9263008 h -3.499364 z"
+               fill="#93786f"
+               fill-rule="nonzero"
+               id="path153" />
+            <polygon
+               fill="#e7d0aa"
+               fill-rule="nonzero"
+               transform="rotate(-4.8417,3.9527874,38.702266)"
+               points="6.8970238,35.391219 7.2033372,35.391031 7.1998317,41.128104 6.8935183,41.128293 "
+               id="polygon153" />
+            <polygon
+               fill="#e7d0aa"
+               fill-rule="nonzero"
+               transform="rotate(-85.1816,30.470817,38.252423)"
+               points="27.856185,38.108891 33.59364,38.105402 33.593452,38.411735 27.855998,38.415224 "
+               id="polygon154" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

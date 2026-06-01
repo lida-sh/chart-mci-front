@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="feat-dis-graphics"
+   width="599"
+   height="434"
+   viewBox="0 0 599 434"
+   version="1.1"
+   id="svg109"
+   sodipodi:docname="monitor-files2.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview109"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.1285476"
+     inkscape:cx="357.75569"
+     inkscape:cy="216.34471"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g108" />
+  <defs
+     id="defs3">
+    <filter
+       x="-0.36363636"
+       y="-0.36363636"
+       width="1.7272727"
+       height="1.7272727"
+       filterUnits="objectBoundingBox"
+       id="SyIco-Shadow">
+      <feGaussianBlur
+         stdDeviation="10"
+         in="SourceGraphic"
+         id="feGaussianBlur1" />
+    </filter>
+    <filter
+       x="-0.13636364"
+       y="-0.63157895"
+       width="1.2727273"
+       height="2.2631579"
+       filterUnits="objectBoundingBox"
+       id="TrSy-Shadow">
+      <feGaussianBlur
+         stdDeviation="10"
+         in="SourceGraphic"
+         id="feGaussianBlur2" />
+    </filter>
+    <filter
+       x="-0.09561753"
+       y="-0.080536912"
+       width="1.1912351"
+       height="1.1610738"
+       filterUnits="objectBoundingBox"
+       id="TrSyPop-Shadow">
+      <feGaussianBlur
+         stdDeviation="10"
+         in="SourceGraphic"
+         id="feGaussianBlur3" />
+    </filter>
+    <rect
+       x="0"
+       y="0"
+       width="27"
+       height="28"
+       rx="4"
+       id="rect3" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter130"
+       x="-0.00048"
+       y="-0.00048"
+       width="1.00096"
+       height="1.00096">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.0792"
+         id="feGaussianBlur130" />
+    </filter>
+  </defs>
+  <g
+     id="g109">
+    <g
+       transform="translate(4.9898772,1.8049072)"
+       fill="none"
+       id="g108"
+       style="fill-rule:evenodd;stroke:none;stroke-width:1">
+      <circle
+         class="dis-bg-circle"
+         fill="#f4f5fd"
+         fill-rule="nonzero"
+         cx="321"
+         cy="231"
+         r="198"
+         id="circle3"
+         style="filter:url(#filter130)"
+         transform="matrix(1.1825263,0,0,1.100745,-22.41604,-43.23877)" />
+      <g
+         class="dis-laptop"
+         transform="matrix(1.1939653,0,0,1.15716,1.2396677,58.329581)"
+         fill="none"
+         id="g49">
+        <line
+           x1="0"
+           y1="265"
+           x2="512"
+           y2="265"
+           stroke="#000000"
+           stroke-width="7px"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           fill="none"
+           id="line3" />
+        <path
+           d="M 76.947196,0 H 435.0528 c 6.24063,0 8.50364,0.64977928 10.78512,1.8699289 2.28148,1.2201497 4.072,3.0106697 5.29215,5.2921512 C 452.35022,9.4435616 453,11.706565 453,17.947196 V 240.0528 c 0,6.24063 -0.64978,8.50364 -1.86993,10.78512 -1.22015,2.28148 -3.01067,4.072 -5.29215,5.29215 C 443.55644,257.35022 441.29343,258 435.0528,258 H 76.947196 c -6.240631,0 -8.503634,-0.64978 -10.785116,-1.86993 -2.281481,-1.22015 -4.072001,-3.01067 -5.292151,-5.29215 C 59.649779,248.55644 59,246.29343 59,240.0528 V 17.947196 C 59,11.706565 59.649779,9.4435616 60.869929,7.1620801 62.090079,4.8805986 63.880599,3.0900786 66.16208,1.8699289 68.443562,0.64977928 70.706565,0 76.947196,0 Z"
+           fill="#333333"
+           fill-rule="nonzero"
+           id="path3" />
+        <path
+           d="M 76.255541,7 H 435.74446 c 3.56607,0 4.85922,0.3713024 6.16292,1.0685308 1.30371,0.6972284 2.32686,1.7203827 3.02409,3.0240862 C 445.6287,12.396321 446,13.689466 446,17.255541 V 240.74446 c 0,3.56607 -0.3713,4.85922 -1.06853,6.16292 -0.69723,1.30371 -1.72038,2.32686 -3.02409,3.02409 C 440.60368,250.6287 439.31053,251 435.74446,251 H 76.255541 c -3.566075,0 -4.85922,-0.3713 -6.162924,-1.06853 -1.303703,-0.69723 -2.326858,-1.72038 -3.024086,-3.02409 C 66.371302,245.60368 66,244.31053 66,240.74446 V 17.255541 c 0,-3.566075 0.371302,-4.85922 1.068531,-6.162924 C 67.765759,9.7889135 68.788914,8.7657592 70.092617,8.0685308 71.396321,7.3713024 72.689466,7 76.255541,7 Z"
+           fill="#ffffff"
+           fill-rule="nonzero"
+           id="path4"
+           sodipodi:nodetypes="sssssssssssssssss" />
+        <g
+           transform="translate(172,7)"
+           fill="#333333"
+           fill-rule="nonzero"
+           id="g5">
+          <path
+             d="m 0,0 h 266 c 4.41828,0 8,3.581722 8,8 v 23 0 H 0 Z"
+             fill="#333333"
+             id="path5" />
+        </g>
+        <path
+           d="m 172,7 h 266 c 4.41828,0 8,3.581722 8,8 v 23 0 H 172 Z"
+           fill="#dfe3e8"
+           id="path6" />
+        <polygon
+           fill="#f1f4f9"
+           points="172,38 172,27.666667 172,7 339,7 339,38 268.94757,38 256.9073,38 "
+           id="polygon6" />
+        <g
+           transform="translate(189,18)"
+           fill="#333333"
+           fill-rule="nonzero"
+           font-family="sans-serif"
+           font-size="8px"
+           font-weight="400"
+           id="g6">
+          <text
+             fill="#333333"
+             id="text6"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333"
+             x="30.537254"
+             y="-1.4094118"><tspan
+               x="30.537254"
+               y="6.5905881"
+               fill="#333333"
+               id="tspan6"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">مستندات فرایندی</tspan></text>
+        </g>
+        <g
+           transform="translate(66,7)"
+           fill="#dfe3e8"
+           id="g9">
+          <g
+             fill="#dfe3e8"
+             id="g7">
+            <path
+               d="m 8,0 h 98 V 0 244 H 8 c -4.418278,0 -8,-3.58172 -8,-8 V 8 C 0,3.581722 3.581722,0 8,0 Z"
+               fill="#dfe3e8"
+               id="path7" />
+          </g>
+          <g
+             fill-rule="nonzero"
+             fill="#dfe3e8"
+             id="g8">
+            <path
+               d="m 8,0 h 98 V 0 244 H 8 c -4.418278,0 -8,-3.58172 -8,-8 V 8 C 0,3.581722 3.581722,0 8,0 Z"
+               fill="#dfe3e8"
+               id="path8" />
+          </g>
+        </g>
+        <text
+           fill="#333333"
+           fill-rule="nonzero"
+           font-family="sans-serif"
+           font-size="7px"
+           font-weight="normal"
+           id="text10"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;fill-rule:nonzero"
+           x="74.764404"
+           y="171.20605"><tspan
+             sodipodi:role="line"
+             id="tspan110"
+             x="74.764404"
+             y="171.20605">ادارات کل</tspan></text>
+        <g
+           transform="translate(77,34)"
+           fill="#333333"
+           fill-rule="nonzero"
+           font-family="sans-serif"
+           font-size="7px"
+           font-weight="normal"
+           id="g10">
+          <text
+             fill="#333333"
+             id="text9"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333"><tspan
+               sodipodi:role="line"
+               id="tspan111"
+               x="0"
+               y="0">معاونت های ستادی</tspan></text>
+        </g>
+        <line
+           x1="85"
+           y1="52"
+           x2="110"
+           y2="52"
+           stroke="#a7aeb7"
+           stroke-width="3px"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           fill="none"
+           id="line10" />
+        <line
+           x1="85"
+           y1="65"
+           x2="112"
+           y2="65"
+           stroke="#a7aeb7"
+           stroke-width="3px"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           fill="none"
+           id="line11" />
+        <line
+           x1="85"
+           y1="78"
+           x2="129"
+           y2="78"
+           stroke="#a7aeb7"
+           stroke-width="3px"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           fill="none"
+           id="line12" />
+        <line
+           x1="85"
+           y1="91"
+           x2="112"
+           y2="91"
+           stroke="#a7aeb7"
+           stroke-width="3px"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           fill="none"
+           id="line13" />
+        <text
+           fill="#333333"
+           fill-rule="nonzero"
+           font-family="sans-serif"
+           font-size="7px"
+           font-weight="normal"
+           id="text13"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;fill-rule:nonzero"
+           x="72.994827"
+           y="111.92541"><tspan
+             sodipodi:role="line"
+             id="tspan109"
+             x="72.994827"
+             y="111.92541">مناطق مخابراتی</tspan></text>
+        <line
+           x1="85"
+           y1="128"
+           x2="124"
+           y2="128"
+           stroke="#a7aeb7"
+           stroke-width="3px"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           fill="none"
+           id="line14" />
+        <line
+           x1="85"
+           y1="141"
+           x2="105"
+           y2="141"
+           stroke="#a7aeb7"
+           stroke-width="3px"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           fill="none"
+           id="line15" />
+        <text
+           fill="#333333"
+           fill-rule="nonzero"
+           font-family="sans-serif"
+           font-size="7px"
+           font-weight="normal"
+           id="text15"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;fill-rule:nonzero"><tspan
+             sodipodi:role="line"
+             id="tspan112"
+             x="77"
+             y="227"><tspan
+               x="77"
+               y="227"
+               fill="#333333"
+               id="tspan15"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">دفاترستادی</tspan></tspan><tspan
+             sodipodi:role="line"
+             id="tspan113"
+             x="77"
+             y="235.75" /></text>
+        <line
+           x1="85"
+           y1="240"
+           x2="124"
+           y2="240"
+           stroke="#a7aeb7"
+           stroke-width="3px"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           fill="none"
+           id="line16" />
+        <circle
+           fill="#f66f61"
+           fill-rule="nonzero"
+           cx="80"
+           cy="21"
+           r="3"
+           id="circle16" />
+        <circle
+           fill="#ffbe36"
+           fill-rule="nonzero"
+           cx="89"
+           cy="21"
+           r="3"
+           id="circle17" />
+        <circle
+           fill="#6bc65e"
+           fill-rule="nonzero"
+           cx="98"
+           cy="21"
+           r="3"
+           id="circle18" />
+        <g
+           class="dis-folders"
+           transform="translate(178.89254,44.832157)"
+           fill="none"
+           id="g48">
+          <g
+             fill="none"
+             id="g20">
+            <path
+               d="M 3,0 H 8.8104265 C 9.4873094,0 10.1443,0.2289077 10.674632,0.649524 l 1.534291,1.2168746 c 0.530333,0.4206163 1.187323,0.649524 1.864206,0.649524 H 29 c 1.656854,0 3,1.3431457 3,3 V 24 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 3 C 0,1.3431457 1.3431457,0 3,0 Z"
+               fill="#579ccf"
+               fill-rule="nonzero"
+               id="path18" />
+            <path
+               d="m 3,6 h 26 c 1.656854,0 3,1.3431457 3,3 v 15 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 9 C 0,7.3431457 1.3431457,6 3,6 Z"
+               fill="#8acef7"
+               fill-rule="nonzero"
+               id="path19" />
+            <circle
+               stroke="#ffffff"
+               fill="#616161"
+               fill-rule="nonzero"
+               cx="27"
+               cy="25"
+               r="6"
+               id="circle19" />
+            <text
+               fill="#272727"
+               fill-rule="nonzero"
+               font-family="sans-serif"
+               font-size="6px"
+               font-weight="400"
+               id="text19"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#272727;fill-rule:nonzero"
+               x="-3.8132534"
+               y="38.930576"><tspan
+                 sodipodi:role="line"
+                 id="tspan129"
+                 x="-3.8132534"
+                 y="38.930576">معماری های سازمانی</tspan></text>
+            <path
+               d="m 28,23 c 0.552285,0 1,0.447715 1,1 l -2.93e-4,0.08525 C 29.582456,24.291085 30,24.846781 30,25.5 30,26.328427 29.328427,27 28.5,27 h -2 C 25.671573,27 25,26.328427 25,25.5 25,24.671573 25.671573,24 26.5,24 H 27 c 0,-0.552285 0.447715,-1 1,-1 z"
+               stroke="#ffffff"
+               fill="none"
+               id="path20" />
+          </g>
+          <g
+             transform="translate(53)"
+             fill="none"
+             id="g23">
+            <path
+               d="M 3,0 H 8.8104265 C 9.4873094,0 10.1443,0.2289077 10.674632,0.649524 l 1.534291,1.2168746 c 0.530333,0.4206163 1.187323,0.649524 1.864206,0.649524 H 29 c 1.656854,0 3,1.3431457 3,3 V 24 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 3 C 0,1.3431457 1.3431457,0 3,0 Z"
+               fill="#579ccf"
+               fill-rule="nonzero"
+               id="path21" />
+            <path
+               d="m 3,6 h 26 c 1.656854,0 3,1.3431457 3,3 v 15 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 9 C 0,7.3431457 1.3431457,6 3,6 Z"
+               fill="#8acef7"
+               fill-rule="nonzero"
+               id="path22" />
+            <circle
+               stroke="#ffffff"
+               fill="#616161"
+               fill-rule="nonzero"
+               cx="27"
+               cy="25"
+               r="6"
+               id="circle22" />
+            <text
+               fill="#272727"
+               fill-rule="nonzero"
+               font-family="sans-serif"
+               font-size="6px"
+               font-weight="400"
+               id="text22"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#272727;fill-rule:nonzero"
+               x="7.9630723"
+               y="39.815361"><tspan
+                 sodipodi:role="line"
+                 id="tspan120"
+                 x="7.9630723"
+                 y="39.815361">فرایند ها</tspan></text>
+            <path
+               d="m 28,23 c 0.552285,0 1,0.447715 1,1 l -2.93e-4,0.08525 C 29.582456,24.291085 30,24.846781 30,25.5 30,26.328427 29.328427,27 28.5,27 h -2 C 25.671573,27 25,26.328427 25,25.5 25,24.671573 25.671573,24 26.5,24 H 27 c 0,-0.552285 0.447715,-1 1,-1 z"
+               stroke="#ffffff"
+               fill="none"
+               id="path23" />
+          </g>
+          <g
+             transform="translate(106)"
+             fill="none"
+             id="g26">
+            <path
+               d="M 3,0 H 8.8104265 C 9.4873094,0 10.1443,0.2289077 10.674632,0.649524 l 1.534291,1.2168746 c 0.530333,0.4206163 1.187323,0.649524 1.864206,0.649524 H 29 c 1.656854,0 3,1.3431457 3,3 V 24 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 3 C 0,1.3431457 1.3431457,0 3,0 Z"
+               fill="#579ccf"
+               fill-rule="nonzero"
+               id="path24" />
+            <path
+               d="m 3,6 h 26 c 1.656854,0 3,1.3431457 3,3 v 15 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 9 C 0,7.3431457 1.3431457,6 3,6 Z"
+               fill="#8acef7"
+               fill-rule="nonzero"
+               id="path25" />
+            <circle
+               stroke="#ffffff"
+               fill="#616161"
+               fill-rule="nonzero"
+               cx="27"
+               cy="25"
+               r="6"
+               id="circle25" />
+            <text
+               fill="#272727"
+               fill-rule="nonzero"
+               font-family="sans-serif"
+               font-size="6px"
+               font-weight="400"
+               id="text25"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:0;fill:#272727;fill-rule:nonzero"
+               transform="translate(0,39.933333)"><tspan
+                 id="tspan121"
+                 x="0"
+                 y="0">زیر فرایند ها</tspan></text>
+            <path
+               d="m 28,23 c 0.552285,0 1,0.447715 1,1 l -2.93e-4,0.08525 C 29.582456,24.291085 30,24.846781 30,25.5 30,26.328427 29.328427,27 28.5,27 h -2 C 25.671573,27 25,26.328427 25,25.5 25,24.671573 25.671573,24 26.5,24 H 27 c 0,-0.552285 0.447715,-1 1,-1 z"
+               stroke="#ffffff"
+               fill="none"
+               id="path26" />
+          </g>
+          <g
+             transform="translate(159)"
+             fill="none"
+             id="g29">
+            <path
+               d="M 3,0 H 8.8104265 C 9.4873094,0 10.1443,0.2289077 10.674632,0.649524 l 1.534291,1.2168746 c 0.530333,0.4206163 1.187323,0.649524 1.864206,0.649524 H 29 c 1.656854,0 3,1.3431457 3,3 V 24 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 3 C 0,1.3431457 1.3431457,0 3,0 Z"
+               fill="#579ccf"
+               fill-rule="nonzero"
+               id="path27" />
+            <path
+               d="m 3,6 h 26 c 1.656854,0 3,1.3431457 3,3 v 15 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 9 C 0,7.3431457 1.3431457,6 3,6 Z"
+               fill="#8acef7"
+               fill-rule="nonzero"
+               id="path28" />
+            <circle
+               stroke="#ffffff"
+               fill="#616161"
+               fill-rule="nonzero"
+               cx="27"
+               cy="25"
+               r="6"
+               id="circle28" />
+            <text
+               fill="#272727"
+               fill-rule="nonzero"
+               font-family="sans-serif"
+               font-size="6px"
+               font-weight="400"
+               id="text28"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#272727;fill-rule:nonzero"
+               x="-3.2886274"
+               y="40.403137"><tspan
+                 sodipodi:role="line"
+                 id="tspan122"
+                 x="-3.2886274"
+                 y="40.403137">روش های اجرایی</tspan></text>
+            <path
+               d="m 28,23 c 0.552285,0 1,0.447715 1,1 l -2.93e-4,0.08525 C 29.582456,24.291085 30,24.846781 30,25.5 30,26.328427 29.328427,27 28.5,27 h -2 C 25.671573,27 25,26.328427 25,25.5 25,24.671573 25.671573,24 26.5,24 H 27 c 0,-0.552285 0.447715,-1 1,-1 z"
+               stroke="#ffffff"
+               fill="none"
+               id="path29" />
+          </g>
+          <g
+             transform="translate(212)"
+             fill="none"
+             id="g32">
+            <path
+               d="M 3,0 H 8.8104265 C 9.4873094,0 10.1443,0.2289077 10.674632,0.649524 l 1.534291,1.2168746 c 0.530333,0.4206163 1.187323,0.649524 1.864206,0.649524 H 29 c 1.656854,0 3,1.3431457 3,3 V 24 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 3 C 0,1.3431457 1.3431457,0 3,0 Z"
+               fill="#579ccf"
+               fill-rule="nonzero"
+               id="path30" />
+            <path
+               d="m 3,6 h 26 c 1.656854,0 3,1.3431457 3,3 v 15 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 9 C 0,7.3431457 1.3431457,6 3,6 Z"
+               fill="#8acef7"
+               fill-rule="nonzero"
+               id="path31" />
+            <circle
+               stroke="#ffffff"
+               fill="#616161"
+               fill-rule="nonzero"
+               cx="27"
+               cy="25"
+               r="6"
+               id="circle31" />
+            <text
+               fill="#272727"
+               fill-rule="nonzero"
+               font-family="sans-serif"
+               font-size="6px"
+               font-weight="400"
+               id="text31"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#272727;fill-rule:nonzero"
+               x="1.8792157"
+               y="42.282352"><tspan
+                 sodipodi:role="line"
+                 id="tspan123"
+                 x="1.8792157"
+                 y="42.282352">دستورالعمل ها</tspan></text>
+            <path
+               d="m 28,23 c 0.552285,0 1,0.447715 1,1 l -2.93e-4,0.08525 C 29.582456,24.291085 30,24.846781 30,25.5 30,26.328427 29.328427,27 28.5,27 h -2 C 25.671573,27 25,26.328427 25,25.5 25,24.671573 25.671573,24 26.5,24 H 27 c 0,-0.552285 0.447715,-1 1,-1 z"
+               stroke="#ffffff"
+               fill="none"
+               id="path32" />
+          </g>
+          <g
+             transform="translate(0,58)"
+             fill="none"
+             id="g35">
+            <path
+               d="M 3,0 H 8.8104265 C 9.4873094,0 10.1443,0.2289077 10.674632,0.649524 l 1.534291,1.2168746 c 0.530333,0.4206163 1.187323,0.649524 1.864206,0.649524 H 29 c 1.656854,0 3,1.3431457 3,3 V 24 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 3 C 0,1.3431457 1.3431457,0 3,0 Z"
+               fill="#579ccf"
+               fill-rule="nonzero"
+               id="path33" />
+            <path
+               d="m 3,6 h 26 c 1.656854,0 3,1.3431457 3,3 v 15 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 9 C 0,7.3431457 1.3431457,6 3,6 Z"
+               fill="#8acef7"
+               fill-rule="nonzero"
+               id="path34" />
+            <circle
+               stroke="#ffffff"
+               fill="#616161"
+               fill-rule="nonzero"
+               cx="27"
+               cy="25"
+               r="6"
+               id="circle34" />
+            <text
+               fill="#272727"
+               fill-rule="nonzero"
+               font-family="sans-serif"
+               font-size="6px"
+               font-weight="400"
+               id="text34"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#272727;fill-rule:nonzero"
+               x="6.5772548"
+               y="39.463528"><tspan
+                 sodipodi:role="line"
+                 id="tspan124"
+                 x="6.5772548"
+                 y="39.463528">فرم ها</tspan></text>
+            <path
+               d="m 28,23 c 0.552285,0 1,0.447715 1,1 l -2.93e-4,0.08525 C 29.582456,24.291085 30,24.846781 30,25.5 30,26.328427 29.328427,27 28.5,27 h -2 C 25.671573,27 25,26.328427 25,25.5 25,24.671573 25.671573,24 26.5,24 H 27 c 0,-0.552285 0.447715,-1 1,-1 z"
+               stroke="#ffffff"
+               fill="none"
+               id="path35" />
+          </g>
+          <g
+             transform="translate(53,58)"
+             fill="none"
+             id="g38">
+            <path
+               d="M 3,0 H 8.8104265 C 9.4873094,0 10.1443,0.2289077 10.674632,0.649524 l 1.534291,1.2168746 c 0.530333,0.4206163 1.187323,0.649524 1.864206,0.649524 H 29 c 1.656854,0 3,1.3431457 3,3 V 24 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 3 C 0,1.3431457 1.3431457,0 3,0 Z"
+               fill="#579ccf"
+               fill-rule="nonzero"
+               id="path36" />
+            <path
+               d="m 3,6 h 26 c 1.656854,0 3,1.3431457 3,3 v 15 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 9 C 0,7.3431457 1.3431457,6 3,6 Z"
+               fill="#8acef7"
+               fill-rule="nonzero"
+               id="path37" />
+            <circle
+               stroke="#ffffff"
+               fill="#616161"
+               fill-rule="nonzero"
+               cx="27"
+               cy="25"
+               r="6"
+               id="circle37" />
+            <text
+               fill="#272727"
+               fill-rule="nonzero"
+               font-family="sans-serif"
+               font-size="6px"
+               font-weight="400"
+               id="text37"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#272727;fill-rule:nonzero"
+               x="4.2282352"
+               y="39.933334"><tspan
+                 sodipodi:role="line"
+                 id="tspan125"
+                 x="4.2282352"
+                 y="39.933334">قرارداد ها</tspan></text>
+            <path
+               d="m 28,23 c 0.552285,0 1,0.447715 1,1 l -2.93e-4,0.08525 C 29.582456,24.291085 30,24.846781 30,25.5 30,26.328427 29.328427,27 28.5,27 h -2 C 25.671573,27 25,26.328427 25,25.5 25,24.671573 25.671573,24 26.5,24 H 27 c 0,-0.552285 0.447715,-1 1,-1 z"
+               stroke="#ffffff"
+               fill="none"
+               id="path38" />
+          </g>
+          <g
+             transform="translate(106,58)"
+             fill="none"
+             id="g41">
+            <path
+               d="M 3,0 H 8.8104265 C 9.4873094,0 10.1443,0.2289077 10.674632,0.649524 l 1.534291,1.2168746 c 0.530333,0.4206163 1.187323,0.649524 1.864206,0.649524 H 29 c 1.656854,0 3,1.3431457 3,3 V 24 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 3 C 0,1.3431457 1.3431457,0 3,0 Z"
+               fill="#579ccf"
+               fill-rule="nonzero"
+               id="path39" />
+            <path
+               d="m 3,6 h 26 c 1.656854,0 3,1.3431457 3,3 v 15 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 9 C 0,7.3431457 1.3431457,6 3,6 Z"
+               fill="#8acef7"
+               fill-rule="nonzero"
+               id="path40" />
+            <circle
+               stroke="#ffffff"
+               fill="#616161"
+               fill-rule="nonzero"
+               cx="27"
+               cy="25"
+               r="6"
+               id="circle40" />
+            <text
+               fill="#272727"
+               fill-rule="nonzero"
+               font-family="sans-serif"
+               font-size="6px"
+               font-weight="400"
+               id="text40"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#272727;fill-rule:nonzero"
+               x="1.4094118"
+               y="40.87294"><tspan
+                 sodipodi:role="line"
+                 id="tspan126"
+                 x="1.4094118"
+                 y="40.87294">آئین نامه ها</tspan></text>
+            <path
+               d="m 28,23 c 0.552285,0 1,0.447715 1,1 l -2.93e-4,0.08525 C 29.582456,24.291085 30,24.846781 30,25.5 30,26.328427 29.328427,27 28.5,27 h -2 C 25.671573,27 25,26.328427 25,25.5 25,24.671573 25.671573,24 26.5,24 H 27 c 0,-0.552285 0.447715,-1 1,-1 z"
+               stroke="#ffffff"
+               fill="none"
+               id="path41" />
+          </g>
+          <g
+             transform="translate(159,58)"
+             fill="none"
+             id="g44">
+            <path
+               d="M 3,0 H 8.8104265 C 9.4873094,0 10.1443,0.2289077 10.674632,0.649524 l 1.534291,1.2168746 c 0.530333,0.4206163 1.187323,0.649524 1.864206,0.649524 H 29 c 1.656854,0 3,1.3431457 3,3 V 24 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 3 C 0,1.3431457 1.3431457,0 3,0 Z"
+               fill="#579ccf"
+               fill-rule="nonzero"
+               id="path42" />
+            <path
+               d="m 3,6 h 26 c 1.656854,0 3,1.3431457 3,3 v 15 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 9 C 0,7.3431457 1.3431457,6 3,6 Z"
+               fill="#8acef7"
+               fill-rule="nonzero"
+               id="path43" />
+            <circle
+               stroke="#ffffff"
+               fill="#616161"
+               fill-rule="nonzero"
+               cx="27"
+               cy="25"
+               r="6"
+               id="circle43" />
+            <text
+               fill="#272727"
+               fill-rule="nonzero"
+               font-family="sans-serif"
+               font-size="6px"
+               font-weight="400"
+               id="text43"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#272727;fill-rule:nonzero"
+               x="-5.1678433"
+               y="39.463528"><tspan
+                 sodipodi:role="line"
+                 id="tspan127"
+                 x="-5.1678433"
+                 y="39.463528">گزارشات ارزیابی</tspan></text>
+            <path
+               d="m 28,23 c 0.552285,0 1,0.447715 1,1 l -2.93e-4,0.08525 C 29.582456,24.291085 30,24.846781 30,25.5 30,26.328427 29.328427,27 28.5,27 h -2 C 25.671573,27 25,26.328427 25,25.5 25,24.671573 25.671573,24 26.5,24 H 27 c 0,-0.552285 0.447715,-1 1,-1 z"
+               stroke="#ffffff"
+               fill="none"
+               id="path44" />
+          </g>
+          <g
+             transform="translate(212,58)"
+             fill="none"
+             id="g47">
+            <path
+               d="M 3,0 H 8.8104265 C 9.4873094,0 10.1443,0.2289077 10.674632,0.649524 l 1.534291,1.2168746 c 0.530333,0.4206163 1.187323,0.649524 1.864206,0.649524 H 29 c 1.656854,0 3,1.3431457 3,3 V 24 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 3 C 0,1.3431457 1.3431457,0 3,0 Z"
+               fill="#579ccf"
+               fill-rule="nonzero"
+               id="path45" />
+            <path
+               d="m 3,6 h 26 c 1.656854,0 3,1.3431457 3,3 v 15 c 0,1.656854 -1.343146,3 -3,3 H 3 C 1.3431457,27 0,25.656854 0,24 V 9 C 0,7.3431457 1.3431457,6 3,6 Z"
+               fill="#8acef7"
+               fill-rule="nonzero"
+               id="path46" />
+            <circle
+               stroke="#ffffff"
+               fill="#616161"
+               fill-rule="nonzero"
+               cx="27"
+               cy="25"
+               r="6"
+               id="circle46" />
+            <text
+               fill="#272727"
+               fill-rule="nonzero"
+               font-family="sans-serif"
+               font-size="6px"
+               font-weight="400"
+               id="text46"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#272727;fill-rule:nonzero"
+               x="-8.9262743"
+               y="38.523918"><tspan
+                 sodipodi:role="line"
+                 id="tspan128"
+                 x="-8.9262743"
+                 y="38.523918">مستندات برون سازمانی</tspan></text>
+            <path
+               d="m 28,23 c 0.552285,0 1,0.447715 1,1 l -2.93e-4,0.08525 C 29.582456,24.291085 30,24.846781 30,25.5 30,26.328427 29.328427,27 28.5,27 h -2 C 25.671573,27 25,26.328427 25,25.5 25,24.671573 25.671573,24 26.5,24 H 27 c 0,-0.552285 0.447715,-1 1,-1 z"
+               stroke="#ffffff"
+               fill="none"
+               id="path47" />
+          </g>
+        </g>
+      </g>
+      <g
+         class="dis-zwd-truesync"
+         transform="translate(38.930576,264.2489)"
+         fill="none"
+         id="g50">
+        <rect
+           fill="#333333"
+           fill-rule="nonzero"
+           opacity="0.1"
+           filter="url(#TrSy-Shadow)"
+           x="20.5"
+           y="10.5"
+           width="176"
+           height="38"
+           rx="6"
+           id="rect49" />
+        <path
+           d="M 12.569426,0 H 174.93057 c 4.3868,0 5.98107,0.44791967 7.58576,1.3061168 1.58542,0.8478909 2.82966,2.0921363 3.67755,3.6775544 0.8582,1.6046891 1.30612,3.1989604 1.30612,7.5857548 v 16.361148 c 0,4.386794 -0.44792,5.981066 -1.30612,7.585755 -0.84789,1.585418 -2.09213,2.829663 -3.67755,3.677554 C 180.91164,41.05208 179.31737,41.5 174.93057,41.5 H 12.569426 C 8.1826316,41.5 6.5883603,41.05208 4.9836712,40.193883 3.3982531,39.345992 2.1540077,38.101747 1.3061168,36.516329 0.44791967,34.91164 0,33.317368 0,28.930574 V 12.569426 C 0,8.1826316 0.44791967,6.5883603 1.3061168,4.9836712 2.1540077,3.3982531 3.3982531,2.1540077 4.9836712,1.3061168 6.5883603,0.44791967 8.1826316,0 12.569426,0 Z"
+           stroke="#7edada"
+           stroke-width="0.5px"
+           fill="#e6ffff"
+           fill-rule="nonzero"
+           id="path49" />
+        <line
+           x1="164.5"
+           y1="24.5"
+           x2="172.5"
+           y2="24.5"
+           stroke="#000000"
+           stroke-width="1.5px"
+           fill="none"
+           id="line49" />
+        <polygon
+           fill="#333333"
+           fill-rule="nonzero"
+           points="168.75,17.75 164.75,22.75 172.75,22.75 "
+           id="polygon49" />
+        <text
+           fill="#333333"
+           fill-rule="nonzero"
+           font-family="sans-serif"
+           font-size="13px"
+           font-weight="bold"
+           id="text49"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'2  Nazanin';-inkscape-font-specification:'2  Nazanin, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;fill-rule:nonzero"
+           x="34.295685"
+           y="23.490196"><tspan
+             sodipodi:role="line"
+             id="tspan130"
+             x="34.295685"
+             y="23.490196">سامانه مدیریت اسناد</tspan></text>
+      </g>
+      <path
+         d="m 497.4896,16.543529 h 200.84 c 13.8513,0 25.08,11.043406 25.08,24.666139 V 289.87739 c 0,13.62273 -11.2287,24.66614 -25.08,24.66614 h -200.84 c -13.8513,0 -25.08,-11.04341 -25.08,-24.66614 V 41.209668 c 0,-13.622733 11.2287,-24.666139 25.08,-24.666139 z"
+         fill="#3b4b64"
+         opacity="0.04"
+         class="dis-pop-shadow"
+         fill-rule="nonzero"
+         filter="url(#TrSyPop-Shadow)"
+         id="path50"
+         sodipodi:nodetypes="sssssssss" />
+    </g>
+  </g>
+</svg>
