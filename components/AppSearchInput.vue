@@ -1,12 +1,12 @@
 <template>
   <div class="form-control" :class="{ 'has-error': !!errorMessage, success: meta.valid }">
     <label v-if="label !== ''" class="flex justify-between items-center px-1 pb-1.5" :for="name">
-      <span class="label-text">{{ label }}</span>
+      <span class="label-text text-xs">{{ label }}</span>
       <slot name="leftLabel"></slot>
     </label>
     <div class="relative w-full">
       <input
-        class="focus:ring-0 focus:ring-offset-0 focus:border-gray-300 border-gray-300 rounded-lg h-12 relative w-full placeholder:text-sm"
+        class="focus:ring-0 focus:ring-offset-0 focus:border-gray-300 border-gray-300 rounded-lg h-10 relative w-full placeholder:text-sm"
         autocomplete="off" :type="type" placeholder="جستجو ..." v-bind="$attrs" :value="inputValue" :name="name"
         @input="handleChange" @blur="handleBlur">
       <button type="button" @click="handleSearch"

@@ -125,7 +125,7 @@
 
 <script setup lang="ts">
 
-import { ProcessClientDto } from '../composables/processes/process.dto';
+import { ProcessClientDto } from '../composables/directorates/directorate.dto';
 
 
 

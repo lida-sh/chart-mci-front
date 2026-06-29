@@ -74,9 +74,9 @@
 import { toRaw } from "vue";
 import Echo from 'laravel-echo'
 import type { ArchitectureBaseDto } from '~/composables/architectures/architecture.dto';
-import { useAdvancedSearchService, useGetBaseArchitecturesService, useGetBaseProcessesService, useGetOcrResultsService } from '~/composables/home/home.service';
+import { useAdvancedSearchService, useGetBaseArchitecturesService, useGetBaseDirectoratesService, useGetOcrResultsService } from '~/composables/home/home.service';
 import { useAdvancedSearchValidation } from '~/composables/home/home.validation';
-import type { ProcessBaseDto } from '~/composables/processes/process.dto';
+import type { DirectorateBaseDto } from '~/composables/directorates/directorate.dto';
 import { ButtonVariantEnum } from '~/types';
 import { Form } from "vee-validate"
 
@@ -126,7 +126,7 @@ const itemsInSearch = [
     },
 ]
 
-const { $echo } = useNuxtApp() as { $echo: Echo }
+
 
 const query = ref({})
 const route = useRoute()
@@ -135,10 +135,10 @@ const searchOnced = ref(false)
 const loading = ref(false)
 let data = ref<any>()
 const architectures = ref<ArchitectureBaseDto[]>([]);
-const processes = ref<ProcessBaseDto[]>([])
+const directorates = ref<DirectorateBaseDto[]>([])
 const showProceeeSelect = ref(false)
 const getArchitectures = useGetBaseArchitecturesService()
-const getProcesses = useGetBaseProcessesService();
+const getDirectorates = useGetBaseDirectoratesService();
 const { schema } = useAdvancedSearchValidation()
 const searchResults = useState('searchResults', () => [])
 const searchKeyword = useState('searchKeyword', () => '')
@@ -150,9 +150,9 @@ getArchitectures().then((response) => {
 })
 
 const changeSelectItem = async (selectedItemId) => {
-    const data = await getProcesses(selectedItemId, {})
+    const data = await getDirectorates(selectedItemId, {})
     if (data !== undefined) {
-        processes.value = data
+        directorates.value = data
     }
 }
 const changeDocTypeItem = (selectedItemId) => {
@@ -197,49 +197,10 @@ const handleFilter = (link) => {
 }
 const getOcrResults = useGetOcrResultsService()
 
-onMounted(() => {
-
-    console.log('📡 Listening on test-channel...', '✅ echo', $echo)
-    $echo.channel('ocr-results')
-        .listen('.ocr.completed', onOcrCompleted
-            // alert('✅ جستجو در تصاویر انجام شد!');
-            //     console.log('📩 Message received:', dataOcr)
-            //     if(dataOcr[0] !== undefined)
-            //     console.count('OCR EVENT RECEIVED')
-            //     getOcrResults(dataOcr[0].search_id, dataOcr[0].dir, dataOcr[0].type).then((response)=>{
-            //     if (response !== undefined) {
-            //     console.log(response)
-            //     data.value = response
-
-            // }
-            // })
 
 
-        )
-})
-onUnmounted(() => {
-    console.log('🧹 Leaving channel ocr-results')
-    $echo.leave('ocr-results')
-})
-const onOcrCompleted = (dataOcr: any) => {
-    console.log('📩 Message received:', dataOcr)
 
-    if (dataOcr?.[0]) {
-        searchKeyword.value = dataOcr?.[0].keyword
-        getOcrResults(
-            dataOcr[0].search_id,
-            dataOcr[0].keyword,
-            dataOcr[0].dir,
-            dataOcr[0].type
-        ).then((response) => {
-            if (response) {
-                data.value = response
-                searchResults.value = data.value
-                console.log(data.value)
-            }
-        })
-    }
-}
+
 
 </script>
 

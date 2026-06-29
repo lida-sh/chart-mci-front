@@ -1,6 +1,6 @@
 import type { FetchCustomConfig } from "../api/FetchCustomConfig";
 import { useFetchApi } from "../api/useFetchApi";
-import { SubProcessDetailsClientDto } from "../sub-processes/subProcess.dto";
+import { SubProcessDetailsClientDto } from "../departments/department.dto";
 
 export const useGetSubProcessClientBySlugService = () => {
   const fetchData = useFetchApi<SubProcessDetailsClientDto, SubProcessDetailsClientDto>(SubProcessDetailsClientDto);

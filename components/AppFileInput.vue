@@ -1,20 +1,20 @@
 <template>
     <div class="form-control" :class="{ 'has-error': !!errorMessage, success: meta.valid }">
         <label v-if="label !== ''" class="flex justify-between items-center px-1 pb-1.5" :for="name">
-            <span class="label-text">{{ label }}</span>
+            <span class="label-text text-xs">{{ label }}</span>
             <slot name="leftLabel"></slot>
         </label>
-        <input id="file-input" class="hidden file-input file-input-bordered w-full" type="file" multiple="true"
+        <input id="file-input" class="hidden file-input file-input-bordered w-full" h-10 type="file" multiple="true"
             bind="$attrs" :name="name" @change="change" @blur="handleBlur">
         <div class="flex items-center gap-4 border border-gray-300 rounded-lg">
             <label for="file-input"
-                class="border-gray-900 bg-gray-600 text-white py-3 px-4 rounded-r-lg flex items-center justify-center text-sm font-bold">انتخاب
+                class="border-gray-900 bg-gray-600 text-white py-3 px-4 rounded-r-lg flex items-center justify-center text-xs font-bold">انتخاب
                 فایل</label>
-            <span id="file-chosen" class="text-sm font-medium text-gray-700" >فایلی انتخاب نشده است.</span>
+            <span id="file-chosen" class="text-xs font-medium text-gray-700" >فایلی انتخاب نشده است.</span>
         </div>
 
         <label class="flex items-center min-h-[1.4rem] px-1">
-            <span class="label-text-alt leading-3 text-error text-2xs">{{ errorMessage || successMessage }}</span>
+            <span class="label-text-alt leading-3 text-error text-[11px]">{{ errorMessage || successMessage }}</span>
         </label>
     </div>
 </template>

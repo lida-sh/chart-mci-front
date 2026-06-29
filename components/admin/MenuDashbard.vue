@@ -1,6 +1,6 @@
 <template>
   <aside>
-    <ul class="flex flex-col gap-4 text-sm font-bold text-white bg-[black] py-[1.5rem] rounded-2xl">
+    <ul class="flex flex-col gap-4 text-xs lg:text-sm font-bold text-white bg-[black] py-[1.5rem] rounded-2xl">
       <li class="" v-for="(item, index) in menuList" :key="index">
         <div class="flex gap-2 cursor-pointer rounded-lg h-12 dashboard-item pl-[1.375rem]"
           :class="{ 'selected-dashboard-item': item.selected && !item.hasSubmenu }">
@@ -8,7 +8,7 @@
             @click="toggleMenu(item)">
             <div class="flex items-center gap-[0.625rem]">
               <component :is="item.icon"></component>
-              <span class="font-bold text-sm leading-[1.625rem]">{{ item.title }}</span>
+              <span class="font-bold text-xs xl:text-sm leading-[1.625rem]">{{ item.title }}</span>
             </div>
             <IconsArrowDownSmall class="sub-menu-arrow" :class="{ 'sub-menu-arrow-open': item.isSubmenuOpen }">
             </IconsArrowDownSmall>
@@ -17,7 +17,7 @@
             :class="{ 'selected-dashboard-item': item.selected }" v-else>
             <div class="flex items-center gap-[0.625rem] pr-[1rem]">
               <component :is="item.icon"></component>
-              <span class="font-bold text-sm leading-[1.625rem]">{{ item.title }}</span>
+              <span class="font-bold text-xs lg:text-sm leading-[1.625rem]">{{ item.title }}</span>
             </div>
           </nuxt-link>
         </div>
@@ -25,7 +25,7 @@
           <ul>
             <li v-for="submenuItem in item.submenu" :key="submenuItem.title">
               <NuxtLink :to="submenuItem.to" :class="{ 'selected-dashboard-item': route.path === submenuItem.to }"
-                class="dashboard-item font-normal cursor-pointer gap-14 h-12 items-center flex">
+                class="dashboard-item font-normal cursor-pointer gap-14 h-12 items-center flex text-xs lg:text-sm">
                 <!-- <component :is="submenuItem.icon"></component> -->
                 {{ submenuItem.title }}
               </NuxtLink>
@@ -99,21 +99,21 @@ const menuList = ref<MenuItem[]>([
   },
   {
     id: 3,
-    title: "فرایندها",
-    path: 'processes',
+    title: "ادارات کل",
+    path: 'directorates',
     selected: false,
     hasSubmenu: true,
     isSubmenuOpen: false,
     icon: IconsAdminProcess,
     submenu: [
       {
-        title: "ایجاد فرایند",
-        to: "/admin/processes/create",
+        title: "ایجاد اداره کل",
+        to: "/admin/directorates/create",
         icon: ""
       },
       {
-        title: "لیست فرایند ها",
-        to: "/admin/processes",
+        title: "لیست ادارات کل",
+        to: "/admin/directorates",
         icon: ""
       },
       
@@ -121,43 +121,21 @@ const menuList = ref<MenuItem[]>([
   },
   {
     id: 3,
-    title: "زیرفرایندها",
-    path: 'sub-processes',
-    selected: false,
-    hasSubmenu: true,
-    isSubmenuOpen: false,
-    icon: IconsAdminProcess,
-    submenu: [
-      {
-        title: "ایجاد زیرفرایند",
-        to: "/admin/sub-processes/create",
-        icon: ""
-      },
-      {
-        title: "لیست زیرفرایند ها",
-        to: "/admin/sub-processes",
-        icon: ""
-      },
-      
-    ],
-  },
-  {
-    id: 3,
-    title: "روشهای اجرایی و ...",
-    path: 'procedures',
+    title: "ادارات",
+    path: 'departments',
     selected: false,
     hasSubmenu: true,
     isSubmenuOpen: false,
     icon: IconsAdminDocuments,
     submenu: [
       {
-        title: "ایجاد روش اجرایی",
-        to: "/admin/procedures/create",
+        title: "ایجاد اداره",
+        to: "/admin/departments/create",
         icon: ""
       },
       {
-        title: "لیست روش های اجرایی",
-        to: "/admin/procedures",
+        title: "لیست ادارات",
+        to: "/admin/departments",
         icon: ""
       },
       

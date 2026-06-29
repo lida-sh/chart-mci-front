@@ -1,16 +1,16 @@
 import { useFetchApi } from "../api/useFetchApi";
 import { ArchitectureBaseDto } from "../architectures/architecture.dto";
 import {
-  ProcessBaseDto,
-  ProcessClientDtoPagination,
-} from "../processes/process.dto";
+  DirectorateBaseDto,
+  DirectorateClientDtoPagination,
+} from "../directorates/directorate.dto";
 import type { FetchCustomConfig } from "../api/FetchCustomConfig";
 import {
   useAdvancedSearchValidation,
   useSearchValidation,
 } from "./home.validation";
 import type { InferType } from "yup";
-import { SubProcessClientDtoPagination } from "../sub-processes/subProcess.dto";
+import { SubProcessClientDtoPagination } from "../departments/department.dto";
 import { ProcedureClientDtoPagination } from "../procetures/procedure.dto";
 import { resultSearchDtoPagination } from "./search.dto";
 
@@ -20,9 +20,9 @@ export const useGetBaseArchitecturesService = () => {
   );
   return () => fetchData("/architectures", {}, { toastError: true });
 };
-export const useGetBaseProcessesService = () => {
-  const fetchData = useFetchApi<ProcessBaseDto[], ProcessBaseDto>(
-    ProcessBaseDto
+export const useGetBaseDirectoratesService = () => {
+  const fetchData = useFetchApi<DirectorateBaseDto[], DirectorateBaseDto>(
+    DirectorateBaseDto
   );
   return (architectureId: number, customConfig: FetchCustomConfig = {}) =>
     fetchData(
@@ -93,11 +93,11 @@ export const useGetProceduresService = () => {
   return (params, customConfig: FetchCustomConfig = {}) =>
     fetchData("/procedures", { params }, { toastError: true, ...customConfig });
 };
-export const useGetProcessesService = () => {
+export const useGetDirectoratesService = () => {
   const fetchData = useFetchApi<
-    ProcessClientDtoPagination,
-    ProcessClientDtoPagination
-  >(ProcessClientDtoPagination);
+    DirectorateClientDtoPagination,
+    DirectorateClientDtoPagination
+  >(DirectorateClientDtoPagination);
   return (params, customConfig: FetchCustomConfig = {}) =>
     fetchData("/processes", { params }, { toastError: true, ...customConfig });
 };

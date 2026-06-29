@@ -1,46 +1,31 @@
 <template>
     <div id="top-of-page" class="w-full h-full flex flex-col items-center justify-center">
-        <div class="relative flex flex-col w-full overflow-hidden items-center justify-center h-[40rem] sm:h-[40rem] xl:h-[55rem]">
-            <div class="absolute z-0 -inset-2 contrast-125 head">
-            <!-- <div class="lg:col-span-7 w-full flex">
+        <div class="relative flex flex-col w-full overflow-hidden items-center justify-center h-[25rem] sm:h-[20rem] xl:h-[40rem]">
+            <div class="absolute z-0 -inset-4 contrast-125 head">
+            <div class="flex flex-col w-full h-full lg:grid lg:grid-cols-12 p-10">
+               <div class="flex flex-col gap-4 lg:col-span-6 w-full h-full items-center mr-16">
+                   <h1 class="text-sm lg:text-md xl:text-[2.25rem] text-white font-bold mt-24 ">معماری و ساختار سازمانی مخابرات ایران</h1>
+                   <h6 class="text-white text-xl font-bold mt-6 mr-8">معاونت راهبرد و توسعه کسب و کار</h6>
+                   <p class="text-base xl:text-md 2xl:text-[1.8rem] text-white font-bold mr-8">
+                     اداره کل سرآمدی و معماری سازمانی
+                </p>
+                <nuxt-link to="/top-chart" class="bg-[#0048FF] text-white text-lg rounded-lg border-2 border-[#000057] px-8 py-2 mr-16 mt-2">تاپ چارت</nuxt-link>
+               </div>
+               <div class="flex w-full h-full lg:col-span-6"></div>
             </div>
-            <div class="lg:col-span-5 w-full h-full flex flex-col gap-1 items-center justify-start py-4 lg:py-[15rem] px-4 sm:px-6 space-y-2 lg:space-y-8">
-                     <p
-                        class="text-base xl:text-[1.4rem] 2xl:text-[1.8rem] text-white font-bold">
-                        نگهداری
-                        و دسترسی سریع به اسناد فرایندی با</p> 
-                <h1 class="text-3xl lg:text-[2rem] xl:text-[3.25rem] text-white font-bold">معماری و ساختار سازمانی مخابرات ایران</h1>
-                <nuxt-link to="advanced-search"
-                    class="bg-[#0482ff] flex items-center justify-center w-full h-12 lg:h-14 text-white text-sm lg:text-base px-8 py-4 rounded-lg border border-red-800 hover:bg-red-700 sm:max-w-[12rem]">تاپ چارت
-                    </nuxt-link> 
-
-            </div> -->
-
-            <!-- <div
-                class=" lg:flex lg:flex-row h-[40rem] sm:h-[40rem] xl:h-[45rem] w-full flex flex-col max-w-[100rem] px-4 pb-8 pt-8 lg:pt-0 lg:px-10 gap-16 lg:gap-4 overflow-x-hidden">
-
-                <div id="search-section"
-                    class="lg:col-span-5 w-full h-full flex flex-col gap-1 items-center justify-center py-4 lg:py-0 px-4 sm:px-6 space-y-2 lg:space-y-8">
-                    <p
-                        class="text-base xl:text-[1.4rem] 2xl:text-[1.8rem] text-white font-bold">
-                        نگهداری
-                        و دسترسی سریع به اسناد فرایندی با</p>
-                    <h1 class="text-3xl lg:text-[2rem] xl:text-[3.25rem] text-white font-bold">سامانه مدیریت اسناد</h1>
-                    <Form @submit="submitSearch" class="w-full">
-                        <the-search-input name="search" class="w-full" :loading="loading"></the-search-input>
-                    </Form>
-                    <nuxt-link to="advanced-search"
-                        class="bg-red-600 flex items-center justify-center w-full h-12 lg:h-14 text-white text-sm lg:text-base px-8 py-4 rounded-lg border border-red-800 hover:bg-red-700 sm:max-w-[12rem]">جستجوی
-                        دقیق</nuxt-link> 
-                    </div>
-            </div> -->
-        </div>
-        </div>
-
-
-        <section class="bg-gray-100 w-full flex flex-col items-center justify-center py-8 lg:py-0">
             
-            <div class="w-full flex max-w-[100rem]" id="types-of-docs">
+
+            <div
+                class=" lg:flex lg:flex-row h-[40rem] sm:h-[40rem] xl:h-[45rem] w-full flex flex-col max-w-[100rem] px-4 pb-8 pt-8 lg:pt-0 lg:px-10 gap-16 lg:gap-4 overflow-x-hidden">
+                    
+            </div>
+        </div>
+        </div>
+
+
+        <section class="bg-gray-100 h-[20rem] w-full flex flex-col items-center justify-center py-8 lg:py-0">
+            
+             <!--<div class="w-full flex max-w-[100rem]" id="types-of-docs">
                 <div class="p-10 overflow-hidden">
                     <app-slider :items="items">
                         <template #item="{ item }">
@@ -48,7 +33,7 @@
                         </template>
                     </app-slider>
                 </div>
-            </div>
+            </div> -->
             
             
 
@@ -60,7 +45,7 @@
                 </svg>
             </div>
             <div class="bg-[#adb5bd] w-full -mt-1 p-4"> -->
-            <div class="flex flex-col gap-10 lg:gap-24 items-center justify-center w-full ">
+            <!-- <div class="flex flex-col gap-10 lg:gap-24 items-center justify-center w-full ">
                 <div
                     class="w-full flex flex-col gap-4 items-start justify-center relative px-8 lg:px-[5rem] 2xl:px-[12rem] pb-20">
                     <h2 class="text-md font-bold sm:text-xl lg:text-2xl mb-10 mr-10">سوالات متداول</h2>
@@ -171,7 +156,7 @@
                     </app-collaps>
                 </div>
 
-            </div>
+            </div> -->
 
             <!-- </div> -->
         </section>
@@ -180,11 +165,11 @@
 </template>
 
 <script setup lang="ts">
-import { gsap } from 'gsap';
-import { Form } from "vee-validate"
-import { useSearchService } from '~/composables/home/home.service';
-import { ToastEnum } from '~/types';
-import VersionControl from "~~/components/icons/slider/VersionControl.vue"
+// import { gsap } from 'gsap';
+// import { Form } from "vee-validate"
+// import { useSearchService } from '~/composables/home/home.service';
+// import { ToastEnum } from '~/types';
+// import VersionControl from "~~/components/icons/slider/VersionControl.vue"
 
 const resultSearch = ref(false)
 const items = [
@@ -281,7 +266,7 @@ const docDefItems = [
 const loading = ref(false)
 const data = ref<any>()
 onMounted(() => {
-    let tl = gsap.timeline();
+    // let tl = gsap.timeline();
 
     
 
@@ -309,7 +294,10 @@ const scrollToTop = () => {
 } 
 @media (min-width: 868px) {
     .head {
-        background-image: url('/public/images/home-back.jpg');
+        background-image: url('/public/images/theme2.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
 .en-font {

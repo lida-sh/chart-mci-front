@@ -1,11 +1,11 @@
 <template>
     <div class="form-control" :class="{ 'has-error': !!errorMessage, success: meta.valid }">
         <label v-if="label !== ''" class="flex justify-between items-center px-1 pb-1.5" :for="name">
-            <span class="label-text">{{ label }}</span>
+            <span class="label-text text-xs">{{ label }}</span>
             <slot name="leftLabel"></slot>
         </label>
         <select 
-            class="bg-left-center select-custom focus:ring-0 focus:ring-offset-0 focus:border-gray-300 border-gray-300 rounded-lg h-12 font-normal font-gray-700"
+            class="text-sm bg-left-center select-custom focus:ring-0 focus:ring-offset-0 focus:border-gray-300 h-10 border-gray-300 rounded-lg font-normal font-gray-700"
             :placeholder="placeholder" v-bind="$attrs" :value="inputValue" :name="name" @change="changeSelect"
             @blur="handleBlur">
             <option :value="null" ></option>
@@ -13,7 +13,7 @@
             <option v-if="options" v-for="(item, index) in options" :key="index" :value="item.id" class="selection:bg-gray-300">{{ item.title }}</option>
         </select>
         <label class="flex items-center min-h-[1.4rem] px-1">
-            <span class="label-text-alt leading-3 text-error text-2xs">{{ errorMessage || successMessage }}</span>
+            <span class="label-text-alt leading-3 text-error text-[11px]">{{ errorMessage || successMessage }}</span>
         </label>
     </div>
 </template>

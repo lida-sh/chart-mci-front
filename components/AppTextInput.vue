@@ -8,21 +8,21 @@
         class="flex justify-between items-center px-1 pb-1.5"
         :for="name"
       >
-        <span class="label-text">{{ label }}</span>
+        <span class="label-text text-xs">{{ label }}</span>
         <slot name="leftLabel"></slot>
       </label>
       <template v-if="area">
-          <textarea :name="name" :placeholder="placeholder" v-bind="$attrs" :value="inputValue" :rows="rows" class="rounded-lg focus:ring-0 focus:ring-offset-0 focus:border-gray-300 border-gray-300"  @input="handleChange" @blur="handleBlur"></textarea>
+          <textarea :name="name" :placeholder="placeholder" v-bind="$attrs" :value="inputValue" :rows="rows" class="text-sm rounded-lg focus:ring-0 focus:ring-offset-0 focus:border-gray-300 border-gray-300"  @input="handleChange" @blur="handleBlur"></textarea>
       </template>
       <template v-else>
-        <input class="focus:ring-0 focus:ring-offset-0 focus:border-gray-300 border-gray-300 rounded-lg h-12 relative" autocomplete="off" v-bind="$attrs" :class="{'h-9': thin}"
+        <input class="text-sm focus:ring-0 focus:ring-offset-0 focus:border-gray-300 border-gray-300 h-10 rounded-lg relative" autocomplete="off" v-bind="$attrs" :class="{'h-9': thin}"
         :type="type" :placeholder="placeholder"
         :value="inputValue" :name="name"
         @input="handleChange"
         @blur="handleBlur">
       </template>
       <label class="flex items-center min-h-[1.4rem] px-1">
-          <span class="label-text-alt leading-3 text-error text-2xs">{{errorMessage ||successMessage}}</span>
+          <span class="label-text-alt leading-3 text-error text-[11px]">{{errorMessage ||successMessage}}</span>
       </label>
     </div>
   </template>

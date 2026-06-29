@@ -62,7 +62,7 @@
 
 <script setup lang="ts">
 import type { ArchitectureClientBaseDto } from '~/composables/architectures/architecture.dto';
-import { ProcessBaseClientDto } from '../composables/processes/process.dto';
+import { ProcessBaseClientDto } from '../composables/directorates/directorate.dto';
 
 interface Item {
     title: string,

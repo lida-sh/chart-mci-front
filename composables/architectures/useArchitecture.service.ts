@@ -3,14 +3,14 @@ import { useFetchApi } from "../api/useFetchApi";
 import { useArchitectureValidation, useEditArchitectureValidation } from "./useArchitecture.validation";
 import type { FetchCustomConfig } from "../api/FetchCustomConfig";
 import { serialize } from "object-to-formdata";
-import { ArchitectureBaseDto, ArchitectureDto, ArchitectureTreeStructDto, ArchitectureDtoPagination } from "./architecture.dto";
+import { ArchitectureBaseDto, ArchitectureDto,TopChartDto, ArchitectureTreeStructBaseDto, ArchitectureTreeStructDto, ArchitectureDtoPagination, ArchitectureDetailsDtoPagination } from "./architecture.dto";
 
 export const useCreateArchitectureService = () => {
   const fetchData = useFetchApi();
   const { schema } = useArchitectureValidation();
 
   return (
-    { title, code, type, files, description }: InferType<typeof schema>,
+    { title, type, status, office_manager_count, old_positions_count, old_expert_positions_count, old_directorates_count, old_departments_count, files, description }: InferType<typeof schema>,
     customConfig: FetchCustomConfig = {}
   ) => {
     return fetchData(
@@ -19,8 +19,13 @@ export const useCreateArchitectureService = () => {
         method: "POST",
         body: serialize({
           title,
-          code,
           type,
+          status,
+          office_manager_count,
+          old_positions_count,
+          old_expert_positions_count,
+          old_directorates_count,
+          old_departments_count,
           description,
           files
         }),
@@ -34,13 +39,18 @@ export const useEditArchitectureService = (id:number) => {
   const { schema } = useEditArchitectureValidation();
 
   return (
-    { title, code, type, files, description, fileIdsForDelete }: InferType<typeof schema>,
+    { title, type, status, office_manager_count, old_positions_count, old_expert_positions_count, old_directorates_count, old_departments_count, files, description, fileIdsForDelete }: InferType<typeof schema>,
     customConfig: FetchCustomConfig = {}
   ) => {
     const formdata = serialize({
       title,
-      code,
       type,
+      status,
+      office_manager_count,
+      old_positions_count,
+      old_expert_positions_count,
+      old_directorates_count,
+      old_departments_count,
       description,
       files
     });
@@ -58,9 +68,10 @@ export const useEditArchitectureService = (id:number) => {
     );
   };
 };
+//گرفتن معماری ها
 export const useGetArchitecturesService = ()=>{
-  const fetchData = useFetchApi<ArchitectureDtoPagination,ArchitectureDtoPagination>(ArchitectureDtoPagination);
-  return (customConfig: FetchCustomConfig = {})=>fetchData("/admin/get-architectures", {}, {setToken:true, toastError: true, ...customConfig})
+  const fetchData = useFetchApi<ArchitectureDetailsDtoPagination,ArchitectureDetailsDtoPagination>(ArchitectureDetailsDtoPagination);
+  return (params, customConfig: FetchCustomConfig = {})=>fetchData("/admin/get-architectures", {params}, {setToken:true, toastError: true, ...customConfig})
 
 }
 export const useGetBaseArchitecturesService = ()=>{
@@ -87,4 +98,8 @@ export const useArchitectureStructureService=()=>{
 export const useDeleteArchitectureService = () =>{
   const fetchData = useFetchApi();
   return (id: number, customConfig: FetchCustomConfig={}) => fetchData(`/admin/architectures/${id}`, {method: 'Delete'}, {toastError:true, setToken:true, ...customConfig})
+}
+export const useTopChartStructureService = () =>{
+  const fetchData = useFetchApi<TopChartDto, TopChartDto>(TopChartDto);
+  return (customConfig: FetchCustomConfig={}) => fetchData("top-chart", {}, {toastError:true, ...customConfig})
 }

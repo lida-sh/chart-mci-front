@@ -1,4 +1,4 @@
-import { useEditProcessService } from "~/composables/processes/useProcess.service";
+import { useEditProcessService } from "~/composables/directorates/useDirectorate.service";
 
 import { ToastEnum } from "~/types";
 import { type FormActions } from "vee-validate";

@@ -1,7 +1,7 @@
 import { Expose, Transform, Type } from "class-transformer";
-import { ProcessClientDto } from "../processes/process.dto";
-import { SubProcessClientDto } from "../sub-processes/subProcess.dto";
-import { ProcedureClientDto } from "../procetures/procedure.dto";
+import { DirectorateClientDto } from "../directorates/directorate.dto";
+import { SubProcessClientDto } from "../departments/department.dto";
+
 
 export class resultSearchDtoPagination {
   @Expose()
@@ -29,8 +29,8 @@ export class resultSearchDtoPagination {
 }
 export class DataDto{
   @Expose()
-  @Type(() => ProcessClientDto)
-  processes?: ProcessClientDto[];
+  @Type(() => DirectorateClientDto)
+  processes?: DirectorateClientDto[];
   @Expose()
   @Type(() => SubProcessClientDto)
   subProcesses?: SubProcessClientDto[];

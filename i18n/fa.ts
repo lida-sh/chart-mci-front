@@ -1,7 +1,6 @@
 export default {
   messages: {
     title: "عنوان",
-    code: "کد",
     type: "نوع",
     docType: "نوع سند",
     description: "توضیحات",
@@ -10,7 +9,7 @@ export default {
     files: "فایل ها",
     architecture: "معماری",
     architecture_id: "معماری والد",
-    process_id: "فرایند والد",
+    directorate_id: "اداره کل والد",
     search: "عبارت مورد جستجو",
     status: "وضعیت",
     sortedBy: "مرتب سازی بر اساس",
@@ -32,7 +31,20 @@ export default {
     newPassword: "پسورد جدید",
     confirmNewPassword: " تکرار پسورد جدید",
     currentPassword: "پسورد فعلی",
-    passwordsMustMatch: "رمزهای عبور باید یکسان باشند"
+    passwordsMustMatch: "رمزهای عبور باید یکسان باشند",
+    expert_positions_count: "تعداد کارشناس چارت کارسنجی شده",
+    old_positions_count: "تعداد پست موجود",
+    old_expert_positions_count: "تعداد پست کارشناسی موجود",
+    old_directorates_count: "تعداد ادارات کل موجود",
+    old_departments_count: "تعداد ادارات موجود",
+    occupied: "ظرفیت ردیف",
+    evaluated_expert_positions_count: "تعداد کارشناس کارسنجی شده",
+    old_permanent_experts_count: "تعداد کارشناس دائم، قراردادی یا تبدیل وضعیت",
+    old_contracting_experts_count: "تعداد کارشناس پیمانکاری",
+    old_below_expert_count: "تعداد پرسنل زیر کارشناس",
+    office_manager_count: "تعداد مسئول دفتر",
+
+
     
     
     

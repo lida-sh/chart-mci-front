@@ -14,7 +14,7 @@ export const useEditArchitecture = (id:number,fileIdsForDelete:number[]) => {
       .then((res) => {
         if (res !== undefined) {
           showToast({
-            message: "معماری جدید ایجاد شد.",
+            message: "معماری موردنظر ویرایش شد.",
             type: ToastEnum.success,
           });
           resetForm();

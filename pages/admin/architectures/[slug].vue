@@ -7,7 +7,7 @@
             <div class="bg-white shadow-lg rounded-2xl p-10 sm:p-[5rem] w-full min-h-screen flex flex-col gap-4">
                 <h1 class="text-xl font-bold ">معماری <span class="text-blue-700">{{ data?.displayTitle }}</span></h1>
                 <div class="flex flex-col sm:flex-row justify-between items-center">
-                    <h6 class="text-base font-medium"> کد معماری: {{ data?.code }}</h6>
+                    <h6 class="text-base font-medium"> کد معماری: {{  }}</h6>
                     <a class="btn btn-success" href="/admin/architectures">بازگشت به لیست سندها</a>
                 </div>
                 
