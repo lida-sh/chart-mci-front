@@ -5,6 +5,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* .tabs input[type="radio"].tab {
+    all: unset;
+} */
 
 body{
     direction: rtl;
@@ -79,3 +82,11 @@ select > option {
     
 }
 
+.tabs .tab[type="radio"] {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  background-image: none !important;
+}
+.tabs-lift .tab::after {
+    content: attr(aria-label) !important;
+}

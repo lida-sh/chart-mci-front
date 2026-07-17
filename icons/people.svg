@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="128"
+     height="128"
+     viewBox="0 0 128 128">
+
+    <defs>
+        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="2.5" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Outer Glow Ring -->
+    <circle
+        cx="64"
+        cy="64"
+        r="60"
+        fill="#081126"
+        stroke="#3d7cff"
+        stroke-width="2.5"
+        filter="url(#glow)"/>
+
+    <!-- Left Person -->
+    <circle cx="43" cy="48" r="8" fill="#ffffff"/>
+    <path
+        d="M29 72
+           C29 62 36 58 43 58
+           C50 58 57 62 57 72
+           L57 80
+           L29 80 Z"
+        fill="#ffffff"/>
+
+    <!-- Center Person -->
+    <circle cx="64" cy="40" r="10" fill="#ffffff"/>
+    <path
+        d="M45 74
+           C45 60 54 54 64 54
+           C74 54 83 60 83 74
+           L83 86
+           L45 86 Z"
+        fill="#ffffff"/>
+
+    <!-- Right Person -->
+    <circle cx="85" cy="48" r="8" fill="#ffffff"/>
+    <path
+        d="M71 72
+           C71 62 78 58 85 58
+           C92 58 99 62 99 72
+           L99 80
+           L71 80 Z"
+        fill="#ffffff"/>
+
+</svg>

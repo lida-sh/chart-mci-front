@@ -142,6 +142,28 @@ const menuList = ref<MenuItem[]>([
     ],
   },
   {
+    id: 3,
+    title: "مناطق",
+    path: 'departments',
+    selected: false,
+    hasSubmenu: true,
+    isSubmenuOpen: false,
+    icon: IconsAdminDocuments,
+    submenu: [
+      {
+        title: "ایجاد ساختار منطقه",
+        to: "/admin/regions/create",
+        icon: ""
+      },
+      {
+        title: "لیست ساختار مناطق",
+        to: "/admin/regions",
+        icon: ""
+      },
+      
+    ],
+  },
+  {
     id: 4,
     title: "کاربران",
     path: 'users',
