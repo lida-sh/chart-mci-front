@@ -66,6 +66,9 @@
             </div>
 
             <button class="btn btn-primary" @click="addItem">+ افزودن</button>
+            <button class="btn btn-circle btn-primary">
+  <Icon name="heroicons:plus" />
+</button>
           </div>
         </div>
 
