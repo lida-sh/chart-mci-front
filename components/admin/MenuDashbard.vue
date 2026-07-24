@@ -1,31 +1,56 @@
 <template>
   <aside>
-    <ul class="flex flex-col gap-4 text-xs lg:text-sm font-bold text-white bg-[black] py-[1.5rem] rounded-2xl">
+    <ul
+      class="flex flex-col gap-4 text-xs lg:text-sm font-bold text-white bg-[black] py-[1.5rem] rounded-2xl"
+    >
       <li class="" v-for="(item, index) in menuList" :key="index">
-        <div class="flex gap-2 cursor-pointer rounded-lg h-12 dashboard-item pl-[1.375rem]"
-          :class="{ 'selected-dashboard-item': item.selected && !item.hasSubmenu }">
-          <button class="flex items-center justify-between w-full pr-[1rem]" v-if="item.hasSubmenu"
-            @click="toggleMenu(item)">
+        <div
+          class="flex gap-2 cursor-pointer rounded-lg h-12 dashboard-item pl-[1.375rem]"
+          :class="{
+            'selected-dashboard-item': item.selected && !item.hasSubmenu,
+          }"
+        >
+          <button
+            class="flex items-center justify-between w-full pr-[1rem]"
+            v-if="item.hasSubmenu"
+            @click="toggleMenu(item)"
+          >
             <div class="flex items-center gap-[0.625rem]">
               <component :is="item.icon"></component>
-              <span class="font-bold text-xs xl:text-sm leading-[1.625rem]">{{ item.title }}</span>
+              <span class="font-bold text-xs xl:text-sm leading-[1.625rem]">{{
+                item.title
+              }}</span>
             </div>
-            <IconsArrowDownSmall class="sub-menu-arrow" :class="{ 'sub-menu-arrow-open': item.isSubmenuOpen }">
+            <IconsArrowDownSmall
+              class="sub-menu-arrow"
+              :class="{ 'sub-menu-arrow-open': item.isSubmenuOpen }"
+            >
             </IconsArrowDownSmall>
           </button>
-          <nuxt-link :to="item.path" class="flex items-center justify-center"
-            :class="{ 'selected-dashboard-item': item.selected }" v-else>
+          <nuxt-link
+            :to="item.path"
+            class="flex items-center justify-center"
+            :class="{ 'selected-dashboard-item': item.selected }"
+            v-else
+          >
             <div class="flex items-center gap-[0.625rem] pr-[1rem]">
               <component :is="item.icon"></component>
-              <span class="font-bold text-xs lg:text-sm leading-[1.625rem]">{{ item.title }}</span>
+              <span class="font-bold text-xs lg:text-sm leading-[1.625rem]">{{
+                item.title
+              }}</span>
             </div>
           </nuxt-link>
         </div>
         <AdminCollapse :is-open="item.isSubmenuOpen">
           <ul>
             <li v-for="submenuItem in item.submenu" :key="submenuItem.title">
-              <NuxtLink :to="submenuItem.to" :class="{ 'selected-dashboard-item': route.path === submenuItem.to }"
-                class="dashboard-item font-normal cursor-pointer gap-14 h-12 items-center flex text-xs lg:text-sm">
+              <NuxtLink
+                :to="submenuItem.to"
+                :class="{
+                  'selected-dashboard-item': route.path === submenuItem.to,
+                }"
+                class="dashboard-item font-normal cursor-pointer gap-14 h-12 items-center flex text-xs lg:text-sm"
+              >
                 <!-- <component :is="submenuItem.icon"></component> -->
                 {{ submenuItem.title }}
               </NuxtLink>
@@ -41,44 +66,46 @@
 import IconsAdminDashboard from "~/components/icons/admin/Dashboard.vue";
 import IconsAdminOrgArchitecture from "~/components/icons/admin/OrgArchitecture.vue";
 import IconsAdminArrowDown from "~/components/icons/ArrowDown.vue";
-import IconsAdminDocuments from "~/components/icons/admin/Documents.vue"
-import IconsAdminProcess from "~/components/icons/admin/Process.vue"
-import IconsAdminArchitecture from "~/components/icons/admin/Architecture.vue"
-import IconsAdminUsers from "~/components/icons/admin/Users.vue"
-import IconsPermission from "~/components/icons/admin/Permission.vue"
-import IconsAdminRole from "~/components/icons/admin/Role.vue"
+import IconsAdminDocuments from "~/components/icons/admin/Documents.vue";
+import IconsAdminMap from "~/components/icons/admin/Map.vue";
+import IconsAdminDocumentLists from "~/components/icons/admin/DocumentLists.vue";
+import IconsAdminRectangleGroup from "~/components/icons/admin/RectangleGroup.vue";
+import IconsAdminProcess from "~/components/icons/admin/Process.vue";
+import IconsAdminArchitecture from "~/components/icons/admin/Architecture.vue";
+import IconsAdminUsers from "~/components/icons/admin/Users.vue";
+import IconsPermission from "~/components/icons/admin/Permission.vue";
+import IconsAdminRole from "~/components/icons/admin/Role.vue";
 
 interface SubMenuItem {
-  title: string,
-  to: string,
-  icon: any
+  title: string;
+  to: string;
+  icon: any;
 }
 interface MenuItem {
-  id: number,
-  title: string,
-  path: string,
-  selected: boolean,
-  hasSubmenu: boolean,
-  isSubmenuOpen: boolean,
-  icon: any,
-  submenu: SubMenuItem[],
+  id: number;
+  title: string;
+  path: string;
+  selected: boolean;
+  hasSubmenu: boolean;
+  isSubmenuOpen: boolean;
+  icon: any;
+  submenu: SubMenuItem[];
 }
 const menuList = ref<MenuItem[]>([
   {
     id: 1,
     title: "داشبورد",
-    path: '/admin/dashboard',
+    path: "/admin/dashboard",
     selected: false,
     hasSubmenu: false,
     isSubmenuOpen: false,
     icon: IconsAdminDashboard,
     submenu: [],
-
   },
   {
     id: 2,
     title: "معماری سازمانی",
-    path: 'architectures',
+    path: "architectures",
     selected: false,
     hasSubmenu: true,
     isSubmenuOpen: false,
@@ -87,20 +114,19 @@ const menuList = ref<MenuItem[]>([
       {
         title: "ایجاد معماری",
         to: "/admin/architectures/create",
-        icon: ""
+        icon: "",
       },
       {
         title: "لیست معماری ها",
         to: "/admin/architectures",
-        icon: ""
+        icon: "",
       },
-      
     ],
   },
   {
     id: 3,
-    title: "ادارات کل",
-    path: 'directorates',
+    title: "ادارات کل ستاد",
+    path: "directorates",
     selected: false,
     hasSubmenu: true,
     isSubmenuOpen: false,
@@ -109,20 +135,19 @@ const menuList = ref<MenuItem[]>([
       {
         title: "ایجاد اداره کل",
         to: "/admin/directorates/create",
-        icon: ""
+        icon: "",
       },
       {
         title: "لیست ادارات کل",
         to: "/admin/directorates",
-        icon: ""
+        icon: "",
       },
-      
     ],
   },
   {
     id: 3,
-    title: "ادارات",
-    path: 'departments',
+    title: "ادارات ستاد",
+    path: "departments",
     selected: false,
     hasSubmenu: true,
     isSubmenuOpen: false,
@@ -131,42 +156,82 @@ const menuList = ref<MenuItem[]>([
       {
         title: "ایجاد اداره",
         to: "/admin/departments/create",
-        icon: ""
+        icon: "",
       },
       {
         title: "لیست ادارات",
         to: "/admin/departments",
-        icon: ""
+        icon: "",
       },
-      
     ],
   },
   {
     id: 3,
     title: "مناطق",
-    path: 'departments',
+    path: "departments",
     selected: false,
     hasSubmenu: true,
     isSubmenuOpen: false,
-    icon: IconsAdminDocuments,
+    icon: IconsAdminMap,
     submenu: [
       {
         title: "ایجاد ساختار منطقه",
         to: "/admin/regions/create",
-        icon: ""
+        icon: "",
       },
       {
         title: "لیست ساختار مناطق",
         to: "/admin/regions",
-        icon: ""
+        icon: "",
       },
-      
+    ],
+  },
+  {
+    id: 3,
+    title: "ادارات کل مناطق",
+    path: "departments",
+    selected: false,
+    hasSubmenu: true,
+    isSubmenuOpen: false,
+    icon: IconsAdminRectangleGroup,
+    submenu: [
+      {
+        title: "ایجاد اداره کل منطقه",
+        to: "/admin/region-directorates/create",
+        icon: "",
+      },
+      {
+        title: "لیست ادارات کل مناطق",
+        to: "/admin/region-directorates",
+        icon: "",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "ادارات مناطق",
+    path: "departments",
+    selected: false,
+    hasSubmenu: true,
+    isSubmenuOpen: false,
+    icon: IconsAdminDocumentLists,
+    submenu: [
+      {
+        title: "ایجاد اداره منطقه",
+        to: "/admin/region-departments/create",
+        icon: "",
+      },
+      {
+        title: "لیست ادارات مناطق",
+        to: "/admin/region-departments",
+        icon: "",
+      },
     ],
   },
   {
     id: 4,
     title: "کاربران",
-    path: 'users',
+    path: "users",
     selected: false,
     hasSubmenu: true,
     isSubmenuOpen: false,
@@ -175,19 +240,19 @@ const menuList = ref<MenuItem[]>([
       {
         title: "لیست کاربران",
         to: "/admin/users",
-        icon: ""
+        icon: "",
       },
       {
         title: "ایجاد کاربر جدید",
         to: "/admin/users/create",
-        icon: ""
+        icon: "",
       },
     ],
   },
   {
     id: 5,
     title: "گروه های کاربری",
-    path: 'roles',
+    path: "roles",
     selected: false,
     hasSubmenu: true,
     isSubmenuOpen: false,
@@ -196,19 +261,19 @@ const menuList = ref<MenuItem[]>([
       {
         title: "ایجاد نقش",
         to: "/admin/roles/create",
-        icon: ""
+        icon: "",
       },
       {
         title: "لیست نقش ها",
         to: "/admin/roles",
-        icon: ""
-      }
+        icon: "",
+      },
     ],
   },
   {
     id: 6,
     title: "مجوزها",
-    path: 'permissions',
+    path: "permissions",
     selected: false,
     hasSubmenu: true,
     isSubmenuOpen: false,
@@ -217,40 +282,45 @@ const menuList = ref<MenuItem[]>([
       {
         title: "ایجاد مجوز",
         to: "/admin/permissions/create",
-        icon: ""
+        icon: "",
       },
       {
         title: "لیست مجوز ها",
         to: "/admin/permissions",
-        icon: ""
-      }
+        icon: "",
+      },
     ],
   },
-  
-])
-const route = useRoute()
+]);
+const route = useRoute();
 const toggleMenu = (item: MenuItem) => {
-  item.isSubmenuOpen = !item.isSubmenuOpen
+  item.isSubmenuOpen = !item.isSubmenuOpen;
   if (item.isSubmenuOpen) {
-    item.selected = true
+    item.selected = true;
   }
-}
-watch(() => route.path, (newPath) => {
-  const firstPath = newPath.split('/')[1];
-  const menuItem = menuList.value.find((item) => item.path === `${firstPath}`);
-  if (menuItem) {
-    menuItem.selected = true
-    menuItem.isSubmenuOpen = true
-    menuList.value.forEach((item) => {
-      if (item !== menuItem) {
-        item.selected = false;
-        item.isSubmenuOpen = false;
-      }
-    })
-  }
-}, {
-  immediate: true
-})
+};
+watch(
+  () => route.path,
+  (newPath) => {
+    const firstPath = newPath.split("/")[1];
+    const menuItem = menuList.value.find(
+      (item) => item.path === `${firstPath}`,
+    );
+    if (menuItem) {
+      menuItem.selected = true;
+      menuItem.isSubmenuOpen = true;
+      menuList.value.forEach((item) => {
+        if (item !== menuItem) {
+          item.selected = false;
+          item.isSubmenuOpen = false;
+        }
+      });
+    }
+  },
+  {
+    immediate: true,
+  },
+);
 </script>
 
 <style scoped>
@@ -268,11 +338,11 @@ watch(() => route.path, (newPath) => {
 }
 
 .selected-dashboard-item::before {
-  background: linear-gradient(180deg, #FF7028 0%, #994318 100%) !important;
+  background: linear-gradient(180deg, #ff7028 0%, #994318 100%) !important;
 }
 
 .selected-dashboard-item {
-  color: #FF7028;
+  color: #ff7028;
 }
 
 .sub-menu-arrow {
